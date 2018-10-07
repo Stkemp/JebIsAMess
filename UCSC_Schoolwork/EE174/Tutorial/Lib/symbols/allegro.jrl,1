@@ -1,0 +1,77 @@
+\t (00:09:02) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:09:02)     Journal start - Thu Sep 27 11:50:27 2018
+\t (00:09:02)         Host=STEPHEN-PC User=Stephen Pid=10180 CPUs=8
+\t (00:09:02) CmdLine= C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin\allegro.exe -orcad
+\t (00:09:02) 
+\d (00:09:02) Design opened: C:/Users/Stephen/Documents/SchoolworkUCSC/EE174/Tutorial/Lib/symbols/DIP100_20_W300_L975.dra
+\i (00:09:02) generaledit 
+\i (00:09:03) zoom out 1 
+\i (00:09:03) setwindow pcb
+\i (00:09:03) zoom out 852.9 168.2
+\i (00:09:03) trapsize 125
+\i (00:09:03) zoom out 1 
+\i (00:09:03) setwindow pcb
+\i (00:09:03) zoom out 2023.6 146.6
+\i (00:09:03) trapsize 125
+\i (00:09:04) zoom in 1 
+\i (00:09:04) setwindow pcb
+\i (00:09:04) zoom in 2023.6 146.6
+\i (00:09:04) trapsize 63
+\t (00:09:05) Pick to complete the window.
+\i (00:09:08) pick 1224.4 264.5
+\t (00:09:08) last pick:  1224.4 264.5
+\i (00:09:08) setwindow pcb
+\i (00:09:08) generaledit 
+\i (00:09:10) drag_start grid 1188.0 252.0
+\i (00:09:10) drag_stop 1125.3 144.1
+\i (00:09:12) zoom out 1 
+\i (00:09:12) setwindow pcb
+\i (00:09:12) zoom out 544.3 -163.3
+\i (00:09:12) trapsize 125
+\i (00:09:12) zoom out 1 
+\i (00:09:12) setwindow pcb
+\i (00:09:12) zoom out 1830.4 -403.0
+\i (00:09:12) trapsize 125
+\i (00:09:12) zoom out 1 
+\i (00:09:12) setwindow pcb
+\i (00:09:12) zoom out 1905.7 -337.8
+\i (00:09:12) trapsize 125
+\i (00:09:13) zoom in 1 
+\i (00:09:13) setwindow pcb
+\i (00:09:13) zoom in 1958.4 -350.3
+\i (00:09:13) trapsize 63
+\i (00:09:14) zoom out 1 
+\i (00:09:14) setwindow pcb
+\i (00:09:14) zoom out 692.4 -65.4
+\i (00:09:14) trapsize 125
+\i (00:09:15) zoom in 1 
+\i (00:09:15) setwindow pcb
+\i (00:09:15) zoom in -11.5 211.8
+\i (00:09:15) trapsize 63
+\i (00:09:16) zoom out 1 
+\i (00:09:16) setwindow pcb
+\i (00:09:16) zoom out -175.9 60.0
+\i (00:09:16) trapsize 125
+\i (00:09:16) zoom out 1 
+\i (00:09:16) setwindow pcb
+\i (00:09:16) zoom out 287.1 -99.4
+\i (00:09:16) trapsize 125
+\i (00:09:16) zoom in 1 
+\i (00:09:16) setwindow pcb
+\i (00:09:16) zoom in -157.1 -21.6
+\i (00:09:16) trapsize 63
+\i (00:18:01) open 
+\e (00:18:01) Do you want to save the changes you made to DIP100_20_W300_L975.dra?
+\i (00:18:03) fillin no 
+\i (00:18:43) fillin "C:\Users\Stephen\Documents\SchoolworkUCSC\EE174\Tutorial\Lib\pcb_lib_Orcad\symbols\BCON156T\BCON156T_LLB.brd"
+\i (00:18:43) cd "C:\Users\Stephen\Documents\SchoolworkUCSC\EE174\Tutorial\Lib\pcb_lib_Orcad\symbols\BCON156T"
+\t (00:18:43) Opening existing design...
+\i (00:18:45) fillin yes 
+\i (00:18:46) trapsize 846
+\i (00:18:46) trapsize 830
+\i (00:18:46) trapsize 846
+\i (00:18:46) trapsize 1618
+\e (00:18:46) ERROR(SPMHDB-210): OrCAD PCB Designer Lite is limited to 50 components.
+\e (00:18:46) To save this design ERROR(SPMHDB-210): OrCAD PCB Designer Lite is limited to 50 components. Save design disabled.
+\i (00:18:49) fillin confirm
+\t (00:18:49)     Journal end - Thu Sep 27 12:00:15 2018

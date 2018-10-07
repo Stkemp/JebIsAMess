@@ -1,0 +1,273 @@
+(ExpressProject "EE174Tutorial"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib\ee174reflib.olb"
+        (Type "Schematic Library"))
+      (File "..\lib\ee174tutorial.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\ee174tutorial.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "FALSE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File
+       "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\HANDSET\EE174TUTORIAL.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "FALSE")
+    (DRC_Check_Normal_Convert_View_Sync "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "FALSE")
+    (DRC_Check_High_Speed_Props_Syntax "FALSE")
+    (DRC_Check_Missing_Pin_Numbers "FALSE")
+    (DRC_Check_Device_With_No_Pins "FALSE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "FALSE")
+    (DRC_Type_Mismatch "FALSE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "C:\Users\Stephen\Documents\SchoolworkUCSC\EE174\Tutorial\Handset\pcb")
+    ("View Allegro Netlist Files" "TRUE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\EE174TUTORIAL.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Outputs"
+    (File ".\ee174tutorial.drc"
+      (Type "Report"))
+    (File ".\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (74HC00
+      (FullPartName "74HC00.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "3"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_ARROW
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    ("C NP"
+      (FullPartName "C NP.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    (SW_SL_SPDT
+      (FullPartName "SW_SL_SPDT.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    (LM317
+      (FullPartName "LM317.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    ("2Pin Header"
+      (FullPartName "2Pin Header.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    (JUMPER3
+      (FullPartName "JUMPER3.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    ("10Pin 1Row Header"
+      (FullPartName "10Pin 1Row Header.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    ("SW PUSHBUTTON"
+      (FullPartName "SW PUSHBUTTON.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (JUMPER8
+      (FullPartName "JUMPER8.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    (TPS1120
+      (FullPartName "TPS1120.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "1"))
+    (HT12E
+      (FullPartName "HT12E.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    (ATF16V8BQL
+      (FullPartName "ATF16V8BQL.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    (EE174TitleBlock
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174REFLIB.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\stephen\documents\schoolworkucsc\ee174\tutorial\handset\ee174tutorial.dsn")
+      (Path "Design Resources"
+         "c:\users\stephen\documents\schoolworkucsc\ee174\tutorial\handset\ee174tutorial.dsn"
+         "Handset")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\stephen\documents\schoolworkucsc\ee174\tutorial\lib\ee174tutorial.olb")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\stephen\documents\schoolworkucsc\ee174\tutorial\handset\ee174tutorial.dsn"))
+    (HierarchyView
+      (Path "Handset"))
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 909"))
+      (Tab 0))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1518 125 610"))
+      (Path
+         "C:\Users\Stephen\Documents\SchoolworkUCSC\EE174\Tutorial\Handset\pcb\pstxprt.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 175 1568 175 660"))
+      (Path
+         "C:\Users\Stephen\Documents\SchoolworkUCSC\EE174\Tutorial\Handset\pcb\pstchip.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1543 150 635"))
+      (Path
+         "C:\Users\Stephen\Documents\SchoolworkUCSC\EE174\Tutorial\Handset\pcb\pstxnet.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1568 175 660")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\HANDSET\EE174TUTORIAL.DSN")
+      (Schematic "Handset")
+      (Page "1 Revisions"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 200 1593 200 685")
+        (Scroll "0 123")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\HANDSET\EE174TUTORIAL.DSN")
+      (Schematic "Handset")
+      (Page "2 Power and Oscillator"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 225 1618 225 710")
+        (Scroll "205 247")
+        (Zoom "130")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\HANDSET\EE174TUTORIAL.DSN")
+      (Schematic "Handset")
+      (Page "3 Wireless Transmitter")))
+  (ISPCBBASICLICENSE "false"))
