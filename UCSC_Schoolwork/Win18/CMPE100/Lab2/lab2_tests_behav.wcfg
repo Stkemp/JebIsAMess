@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lab2_tests_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lab2_tests" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1600000001fs"></ZoomEndTime>
+      <Cursor1Time time="1167000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="115"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/lab2_tests/sw0" type="logic">
+      <obj_property name="ElementShortName">sw0</obj_property>
+      <obj_property name="ObjectShortName">sw0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/sw1" type="logic">
+      <obj_property name="ElementShortName">sw1</obj_property>
+      <obj_property name="ObjectShortName">sw1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/sw2" type="logic">
+      <obj_property name="ElementShortName">sw2</obj_property>
+      <obj_property name="ObjectShortName">sw2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/sw3" type="logic">
+      <obj_property name="ElementShortName">sw3</obj_property>
+      <obj_property name="ObjectShortName">sw3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/sw4" type="logic">
+      <obj_property name="ElementShortName">sw4</obj_property>
+      <obj_property name="ObjectShortName">sw4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/sw5" type="logic">
+      <obj_property name="ElementShortName">sw5</obj_property>
+      <obj_property name="ObjectShortName">sw5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/sw6" type="logic">
+      <obj_property name="ElementShortName">sw6</obj_property>
+      <obj_property name="ObjectShortName">sw6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/CA" type="logic">
+      <obj_property name="ElementShortName">CA</obj_property>
+      <obj_property name="ObjectShortName">CA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/CB" type="logic">
+      <obj_property name="ElementShortName">CB</obj_property>
+      <obj_property name="ObjectShortName">CB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/CC" type="logic">
+      <obj_property name="ElementShortName">CC</obj_property>
+      <obj_property name="ObjectShortName">CC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/CD" type="logic">
+      <obj_property name="ElementShortName">CD</obj_property>
+      <obj_property name="ObjectShortName">CD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/CE" type="logic">
+      <obj_property name="ElementShortName">CE</obj_property>
+      <obj_property name="ObjectShortName">CE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/CF" type="logic">
+      <obj_property name="ElementShortName">CF</obj_property>
+      <obj_property name="ObjectShortName">CF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/CG" type="logic">
+      <obj_property name="ElementShortName">CG</obj_property>
+      <obj_property name="ObjectShortName">CG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/DP" type="logic">
+      <obj_property name="ElementShortName">DP</obj_property>
+      <obj_property name="ObjectShortName">DP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/AN0" type="logic">
+      <obj_property name="ElementShortName">AN0</obj_property>
+      <obj_property name="ObjectShortName">AN0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/AN1" type="logic">
+      <obj_property name="ElementShortName">AN1</obj_property>
+      <obj_property name="ObjectShortName">AN1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/AN2" type="logic">
+      <obj_property name="ElementShortName">AN2</obj_property>
+      <obj_property name="ObjectShortName">AN2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/AN3" type="logic">
+      <obj_property name="ElementShortName">AN3</obj_property>
+      <obj_property name="ObjectShortName">AN3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/UUT/s0" type="logic">
+      <obj_property name="ElementShortName">s0</obj_property>
+      <obj_property name="ObjectShortName">s0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/UUT/s1" type="logic">
+      <obj_property name="ElementShortName">s1</obj_property>
+      <obj_property name="ObjectShortName">s1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/UUT/s2" type="logic">
+      <obj_property name="ElementShortName">s2</obj_property>
+      <obj_property name="ObjectShortName">s2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_tests/UUT/s3" type="logic">
+      <obj_property name="ElementShortName">s3</obj_property>
+      <obj_property name="ObjectShortName">s3</obj_property>
+   </wvobject>
+</wave_config>

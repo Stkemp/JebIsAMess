@@ -1,0 +1,54 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/m2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/new/m4_1x4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m4_1x4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/new/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/CountUD4L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CountUD4L
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/m8_1e.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m8_1e
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/counterUD16L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counterUD16L
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/new/m2_1x16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m2_1x16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/new/GHPgen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GHPgen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/Selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/Ring_Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ring_Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/m2_1x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m2_1x8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/hex7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hex7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab6/Lab6.srcs/sources_1/new/CountUDL8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CountUDL8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/new/GameStateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GameStateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/new/Gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/new/LFSR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LFSR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/new/SkiStateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SkiStateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/Edge Detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Edge_Detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/new/VGAController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGAController
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Lab7/lab7_clks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab7_clks
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clkcntrl4
+INFO: [VRFC 10-311] analyzing module FTCE_MXILINX_clkcntrl4
+INFO: [VRFC 10-311] analyzing module CB4CE_MXILINX_clkcntrl4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/imports/new/Adder8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.srcs/sim_1/new/lab7_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab7_testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab7/Lab7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

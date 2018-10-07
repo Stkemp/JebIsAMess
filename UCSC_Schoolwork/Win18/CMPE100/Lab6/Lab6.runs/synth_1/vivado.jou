@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Feb 21 16:53:52 2018
+# Process ID: 12220
+# Current directory: C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab6/Lab6.runs/synth_1
+# Command line: vivado.exe -log Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+# Log file: C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab6/Lab6.runs/synth_1/Top.vds
+# Journal file: C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab6/Lab6.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top.tcl -notrace

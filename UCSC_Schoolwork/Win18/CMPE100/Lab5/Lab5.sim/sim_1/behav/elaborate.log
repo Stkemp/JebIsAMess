@@ -1,0 +1,53 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 81c5a06782f64561865261c53cf5a908 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Lab5_Testbench_behav xil_defaultlib.Lab5_Testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.125...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.XOR2
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module xil_defaultlib.FTCE_MXILINX_clkcntrl4
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.AND4
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.AND3
+Compiling module unisims_ver.AND2
+Compiling module unisims_ver.VCC
+Compiling module xil_defaultlib.CB4CE_MXILINX_clkcntrl4
+Compiling module unisims_ver.BUF
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.clkcntrl4
+Compiling module unisims_ver.STARTUPE2
+Compiling module xil_defaultlib.lab5_clks
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.State_Machine_default
+Compiling module xil_defaultlib.Time_Counter_default
+Compiling module xil_defaultlib.m4_1x4
+Compiling module xil_defaultlib.m2_1
+Compiling module xil_defaultlib.CountUD4L
+Compiling module xil_defaultlib.m8_1e
+Compiling module xil_defaultlib.ANDFullAdder
+Compiling module xil_defaultlib.MultiplierStage
+Compiling module xil_defaultlib.Multiplier
+Compiling module xil_defaultlib.LFSR_default
+Compiling module xil_defaultlib.Ring_Counter
+Compiling module xil_defaultlib.Selector
+Compiling module xil_defaultlib.hex7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.Lab5_Testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Lab5_Testbench_behav

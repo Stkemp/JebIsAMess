@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/new/m2_1.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/new/m4_1x4.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/new/FullAdder.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/new/CountUD4L.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/new/Adder.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/imports/new/m8_1e.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/new/counterUD16L.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/m2_1x16.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/GHPgen.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/new/Selector.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/new/Ring_Counter.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/imports/new/m2_1x8.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/imports/new/hex7seg.v"
+verilog xil_defaultlib  "../../../../Lab6/Lab6.srcs/sources_1/new/CountUDL8.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/GameStateMachine.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/Gate.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/new/LFSR.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/SkiStateMachine.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/new/Edge Detector.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/VGAController.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/Lab7/lab7_clks.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/new/Adder8.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/Top.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sim_1/new/lab7_testbench.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

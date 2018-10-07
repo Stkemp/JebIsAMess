@@ -1,0 +1,112 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Jan 10 17:11:14 2018
+# Process ID: 3488
+# Current directory: C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11928 C:\Users\secomd\Documents\UCSC_Schoolwork\Win18\CMPE100\Lab1_Part2\Lab1_Part2.xpr
+# Log file: C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/vivado.log
+# Journal file: C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 755.719 ; gain = 114.156
+file mkdir C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new
+close [ open C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/AND.v w ]
+add_files C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/AND.v
+close [ open C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/OR.v w ]
+add_files C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/OR.v
+close [ open C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/NOT.v w ]
+add_files C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/NOT.v
+close [ open C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/XOR.v w ]
+add_files C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/XOR.v
+close [ open C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/OR2.v w ]
+add_files C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/OR2.v
+remove_files  {C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/AND.v C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/NOT.v C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/OR.v C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/XOR.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open {C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/Lab1 Ops.v} w ]
+add_files {{C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/Lab1 Ops.v}}
+remove_files  C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/OR2.v
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Lab1_Ops
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:02:44 ; elapsed = 21:10:42 . Memory (MB): peak = 833.410 ; gain = 622.258
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Lab1_Ops' [C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/Lab1 Ops.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Lab1_Ops' (1#1) [C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/sources_1/new/Lab1 Ops.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:46 ; elapsed = 21:10:44 . Memory (MB): peak = 871.035 ; gain = 659.883
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:46 ; elapsed = 21:10:44 . Memory (MB): peak = 871.035 ; gain = 659.883
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/constrs_1/imports/CMPE100/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.srcs/constrs_1/imports/CMPE100/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:03:02 ; elapsed = 21:11:27 . Memory (MB): peak = 1144.426 ; gain = 933.273
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:01:01 . Memory (MB): peak = 1144.426 ; gain = 320.246
+launch_runs impl_1
+[Thu Jan 11 14:23:39 2018] Launched synth_1...
+Run output will be captured here: C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.runs/synth_1/runme.log
+[Thu Jan 11 14:23:40 2018] Launched impl_1...
+Run output will be captured here: C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Thu Jan 11 14:26:05 2018] Launched impl_1...
+Run output will be captured here: C:/Users/secomd/Documents/UCSC_Schoolwork/Win18/CMPE100/Lab1_Part2/Lab1_Part2.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.3
+  **** Build date : Oct 10 2016-19:47:06
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+warning: cannot open library dpcomm.dll, first required symbol ftdimgr_lock, frequently used Digilent JTAG cables cannot be supported
+warning: cannot open library djtg.dll, first required symbol DjtgGetPortCount, select Digilent JTAG cables cannot be supported
+
+open_hw_target
+ERROR: [Labtoolstcl 44-469] There is no current hw_target.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+ERROR: [Labtoolstcl 44-469] There is no current hw_target.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+ERROR: [Labtoolstcl 44-469] There is no current hw_target.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 11 14:39:02 2018...
