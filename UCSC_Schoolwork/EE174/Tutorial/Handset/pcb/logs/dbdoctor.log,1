@@ -1,0 +1,15 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : ee174tutorial.brd                             )
+(    Software Version : 16.6-2015S059                                 )
+(    Date/Time        : Fri Jan 04 11:53:32 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+WARNING   WARNING(SPMHDB-42): Run batch DRC to correctly regenerate DRC errs.
+
+1 warnings, 0 errors detected, 0 errors could be fixed.

@@ -1,0 +1,363 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../UCSC_Schoolwork/EE174/Tutorial/Handset/pcb/ee174tutorial.brd          |
+|                                                    Wed Jan 02 13:49:09 2019  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  +4.5V        pins ADDED TO this new net
+                                 C1.1           C4.1           C7.2           
+                                 D2.1           J6.2           Q1.1           
+                                 Q1.3           R6.2           U1.18          
+                                 U2.20          U3.14          U4.2           
+                                 U4.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  3HZ_CLK      pins ADDED TO this new net
+                                 U1.14          U3.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADR0         pins ADDED TO this new net
+                                 J1.1           U1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADR1         pins ADDED TO this new net
+                                 J1.3           U1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADR2         pins ADDED TO this new net
+                                 J1.5           U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADR3         pins ADDED TO this new net
+                                 J1.7           U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADR4         pins ADDED TO this new net
+                                 J1.9           U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADR5         pins ADDED TO this new net
+                                 J1.11          U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADR6         pins ADDED TO this new net
+                                 J1.13          U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADR7         pins ADDED TO this new net
+                                 J1.15          U1.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLK_ENABLE   pins ADDED TO this new net
+                                 U2.12          U3.9           U3.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DATA         pins ADDED TO this new net
+                                 J4.3           U1.17          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.2           C3.1           C4.2           
+                                 C5.2           C6.2           C7.1           
+                                 J1.2           J1.4           J1.6           
+                                 J1.8           J1.10          J1.12          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../UCSC_Schoolwork/EE174/Tutorial/Handset/pcb/ee174tutorial.brd          |
+|                                                    Wed Jan 02 13:49:09 2019  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J1.14          J1.16          J2.1           
+                                 J2.6           J2.9           J2.10          
+                                 J3.2           J4.1           J4.2           
+                                 J4.8           J4.9           J4.10          
+                                 J5.1           J5.3           J5.5           
+                                 R5.1           R10.1          R11.2          
+                                 SW1.1          SW2.1          SW3.1          
+                                 SW4.1          SW5.1          SW6.1          
+                                 SW7.1          SW8.1          U1.9           
+                                 U2.10          U3.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03546       pins ADDED TO this new net
+                                 J3.1           SW9.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03550       pins ADDED TO this new net
+                                 D1.1           SW9.2          SW9.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03611       pins ADDED TO this new net
+                                 C5.1           D1.2           U4.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03633       pins ADDED TO this new net
+                                 R5.2           R6.1           U4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03682       pins ADDED TO this new net
+                                 D2.2           R10.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03964       pins ADDED TO this new net
+                                 C2.2           R2.2           R4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03982       pins ADDED TO this new net
+                                 R4.2           U3.1           U3.4           
+                                 U3.5           U3.8           U3.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04113       pins ADDED TO this new net
+                                 C3.2           R3.1           U3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N06193       pins ADDED TO this new net
+                                 R1.2           U1.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N06197       pins ADDED TO this new net
+                                 R1.1           U1.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N11246       pins ADDED TO this new net
+                                 U1.10          U2.19          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../UCSC_Schoolwork/EE174/Tutorial/Handset/pcb/ee174tutorial.brd          |
+|                                                    Wed Jan 02 13:49:09 2019  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N11250       pins ADDED TO this new net
+                                 U1.11          U2.18          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N11254       pins ADDED TO this new net
+                                 U1.12          U2.17          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N11258       pins ADDED TO this new net
+                                 U1.13          U2.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N11605       pins ADDED TO this new net
+                                 D3.1           J2.4           J2.5           
+                                 J2.8           J6.1           Q1.5           
+                                 Q1.6           Q1.7           Q1.8           
+                                 R7.2           R8.2           R9.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N11612       pins ADDED TO this new net
+                                 D3.2           R11.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13941       pins ADDED TO this new net
+                                 J2.3           J5.2           R7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N15925       pins ADDED TO this new net
+                                 J2.7           J4.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16601       pins ADDED TO this new net
+                                 J4.5           J5.4           R8.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16605       pins ADDED TO this new net
+                                 J4.4           J5.6           R9.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N35450       pins ADDED TO this new net
+                                 R2.1           U3.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N35896       pins ADDED TO this new net
+                                 R3.2           U3.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N35975       pins ADDED TO this new net
+                                 C2.1           U3.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N_TXON       pins ADDED TO this new net
+                                 C6.1           Q1.2           Q1.4           
+                                 U2.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  S1           pins ADDED TO this new net
+                                 SW1.2          U2.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../UCSC_Schoolwork/EE174/Tutorial/Handset/pcb/ee174tutorial.brd          |
+|                                                    Wed Jan 02 13:49:09 2019  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  S2           pins ADDED TO this new net
+                                 SW2.2          U2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  S3           pins ADDED TO this new net
+                                 SW3.2          U2.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  S4           pins ADDED TO this new net
+                                 SW4.2          U2.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  S5           pins ADDED TO this new net
+                                 SW5.2          U2.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  S6           pins ADDED TO this new net
+                                 SW6.2          U2.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  S7           pins ADDED TO this new net
+                                 SW7.2          U2.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  S8           pins ADDED TO this new net
+                                 SW8.2          U2.8           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../UCSC_Schoolwork/EE174/Tutorial/Handset/pcb/ee174tutorial.brd          |
+|                                                    Wed Jan 02 13:49:09 2019  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 10PIN 1ROW HEADER_BCON_10X1V_10
+ 2PIN HEADER_0_BCON_2X1V_100S_1S
+ 2PIN HEADER_0_BCON_2X1V_100S__1
+ 74HC00_8_DIP100_14_W300_L700_74
+ ATF16V8BQL_3_DIP100_20_W300_L97
+ C NP_1_SMC0805_0.1UF
+ C NP_1_SMC0805_100NF
+ C NP_1_SMC0805_10NF
+ DIODE SCHOTTKY_0_AX400_35D_1N58
+ HT12E_4_DIP100_18_W300_L950_HT1
+ JUMPER3_BCON_3X2V_100S_42D_JUMP
+ JUMPER8_BCON_8X2V_100S_1SQ_42D_
+ LED_0_SMD_0805_21_GREEN
+ LED_0_SMD_0805_21_RED
+ LM317_1_SMSOT223_1234_LM317A/SO
+ R_SMR0805_240
+ R_SMR0805_470
+ R_SMR0805_120K
+ R_SMR0805_1K
+ R_SMR0805_1M
+ R_SMR0805_4.7K
+ R_SMR0805_47K
+ R_SMR0805_R
+ SW PUSHBUTTON_B3F-1000_38D_SW P
+ SW_SL_SPDT_0_SPDT_EG1206_SW_SL_
+ TPS1120_1_SOJ50_8_WB150_L150_TP
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../UCSC_Schoolwork/EE174/Tutorial/Handset/pcb/ee174tutorial.brd          |
+|                                                    Wed Jan 02 13:49:09 2019  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C NP_1_SMC0805_0.1UF  
+ C2                  C NP_1_SMC0805_100NF  
+ C3                  C NP_1_SMC0805_0.1UF  
+ C4                  C NP_1_SMC0805_0.1UF  
+ C5                  C NP_1_SMC0805_0.1UF  
+ C6                  C NP_1_SMC0805_10NF   
+ C7                  C NP_1_SMC0805_0.1UF  
+ D1                  DIODE SCHOTTKY_0_AX400_35D_1N58 
+ D2                  LED_0_SMD_0805_21_GREEN 
+ D3                  LED_0_SMD_0805_21_RED 
+ J1                  JUMPER8_BCON_8X2V_100S_1SQ_42D_ 
+ J2                  10PIN 1ROW HEADER_BCON_10X1V_10 
+ J3                  2PIN HEADER_0_BCON_2X1V_100S_1S 
+ J4                  10PIN 1ROW HEADER_BCON_10X1V_10 
+ J5                  JUMPER3_BCON_3X2V_100S_42D_JUMP 
+ J6                  2PIN HEADER_0_BCON_2X1V_100S__1 
+ Q1                  TPS1120_1_SOJ50_8_WB150_L150_TP 
+ R1                  R_SMR0805_1M          
+ R2                  R_SMR0805_4.7K        
+ R3                  R_SMR0805_470         
+ R4                  R_SMR0805_120K        
+ R5                  R_SMR0805_R           
+ R6                  R_SMR0805_240         
+ R7                  R_SMR0805_47K         
+ R8                  R_SMR0805_47K         
+ R9                  R_SMR0805_47K         
+ R10                 R_SMR0805_1K          
+ R11                 R_SMR0805_1K          
+ SW1                 SW PUSHBUTTON_B3F-1000_38D_SW P 
+ SW2                 SW PUSHBUTTON_B3F-1000_38D_SW P 
+ SW3                 SW PUSHBUTTON_B3F-1000_38D_SW P 
+ SW4                 SW PUSHBUTTON_B3F-1000_38D_SW P 
+ SW5                 SW PUSHBUTTON_B3F-1000_38D_SW P 
+ SW6                 SW PUSHBUTTON_B3F-1000_38D_SW P 
+ SW7                 SW PUSHBUTTON_B3F-1000_38D_SW P 
+ SW8                 SW PUSHBUTTON_B3F-1000_38D_SW P 
+ SW9                 SW_SL_SPDT_0_SPDT_EG1206_SW_SL_ 
+ U1                  HT12E_4_DIP100_18_W300_L950_HT1 
+ U2                  ATF16V8BQL_3_DIP100_20_W300_L97 
+ U3                  74HC00_8_DIP100_14_W300_L700_74 
+ U4                  LM317_1_SMSOT223_1234_LM317A/SO 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  C:.../UCSC_Schoolwork/EE174/Tutorial/Handset/pcb/ee174tutorial.brd          |
+|                                                    Wed Jan 02 13:49:09 2019  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ D1.2                           PRIM_FILE      .\pstchip.dat
+ D2.2                           PRIM_FILE      .\pstchip.dat
+ D3.2                           PRIM_FILE      .\pstchip.dat
+ J1.9                           PRIM_FILE      .\pstchip.dat
+ J2.9                           PRIM_FILE      .\pstchip.dat
+ J3.2                           PRIM_FILE      .\pstchip.dat
+ J4.9                           PRIM_FILE      .\pstchip.dat
+ J5.6                           PRIM_FILE      .\pstchip.dat
+ J6.2                           PRIM_FILE      .\pstchip.dat
+ Q1.1                           PRIM_FILE      .\pstchip.dat
+ Q1.3                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ SW1.2                          PRIM_FILE      .\pstchip.dat
+ SW2.2                          PRIM_FILE      .\pstchip.dat
+ SW3.2                          PRIM_FILE      .\pstchip.dat
+ SW4.2                          PRIM_FILE      .\pstchip.dat
+ SW5.2                          PRIM_FILE      .\pstchip.dat
+ SW6.2                          PRIM_FILE      .\pstchip.dat
+ SW7.2                          PRIM_FILE      .\pstchip.dat
+ SW8.2                          PRIM_FILE      .\pstchip.dat
+ SW9.3                          PRIM_FILE      .\pstchip.dat
+ U1.14                          PRIM_FILE      .\pstchip.dat
+ U2.9                           PRIM_FILE      .\pstchip.dat
+ U3.1                           PRIM_FILE      .\pstchip.dat
+ U3.4                           PRIM_FILE      .\pstchip.dat
+ U3.9                           PRIM_FILE      .\pstchip.dat
+ U3.12                          PRIM_FILE      .\pstchip.dat
+ U4.4                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  C:.../UCSC_Schoolwork/EE174/Tutorial/Handset/pcb/ee174tutorial.brd          |
+|                                                    Wed Jan 02 13:49:09 2019  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :     165                                        |
+|       Comp definitions added:      26                                        |
+|       Components added      :      41                                        |
+|       Slot property added   :      45                                        |
+|                                                                              |
+|   Total ECO changes reported:     277                                        |
+|------------------------------------------------------------------------------|

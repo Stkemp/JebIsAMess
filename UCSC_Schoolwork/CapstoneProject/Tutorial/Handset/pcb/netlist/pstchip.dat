@@ -1,0 +1,355 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.5.0 p001May-15-2016 at 16:19:35}
+primitive 'C POL_SMCT352812_1.0UF TANT';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C POL';
+    JEDEC_TYPE='SMCT352812';
+    VALUE='1.0uF Tant';
+  end_body;
+end_primitive;
+primitive 'C NP_SMC0805_100NF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C NP';
+    JEDEC_TYPE='SMC0805';
+    VALUE='100nF';
+  end_body;
+end_primitive;
+primitive 'C NP_SMC0805_100PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C NP';
+    JEDEC_TYPE='SMC0805';
+    VALUE='100pF';
+  end_body;
+end_primitive;
+primitive 'SP0503BAHT_SMSOT1431234_SP0503BAHT';
+  pin
+    '1':
+      PIN_NUMBER='(1,1,1)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4,2,3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SP0503BAHT';
+    JEDEC_TYPE='SMSOT1431234';
+    VALUE='SP0503BAHT';
+  end_body;
+end_primitive;
+primitive 'LED_SMD_0805_21_GREEN LED';
+  pin
+    'ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED';
+    JEDEC_TYPE='SMD_0805_21';
+    VALUE='GREEN LED';
+  end_body;
+end_primitive;
+primitive 'DIODE SCHOTTKY_0_DAX400X080028_?';
+  pin
+    'ANODE':
+      PIN_NUMBER='(A)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(C)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE SCHOTTKY_0';
+    JEDEC_TYPE='DAX400X080028';
+    VALUE='?';
+  end_body;
+end_primitive;
+primitive 'USB-B_1_USB_MOLEX_SD-67068_USB-B';
+  pin
+    'VBUS':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'D-':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'D+':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'C1':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'C2':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='USB-B_1';
+    JEDEC_TYPE='USB_MOLEX_SD-67068';
+    VALUE='USB-B';
+  end_body;
+end_primitive;
+primitive 'PHONEJACK MONO 3PIN_0_THJACK35MMMJ3536APC_3.5MM';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='PHONEJACK Mono 3PIN_0';
+    JEDEC_TYPE='THJACK35MMMJ3536APC';
+    VALUE='3.5mm';
+  end_body;
+end_primitive;
+primitive 'HEADER 3PIN_0_BLKCON100VHTM1SQW1003APC_HEADER 3PIN';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 3Pin_0';
+    JEDEC_TYPE='blkcon100vhtm1sqw1003apc';
+    VALUE='HEADER 3Pin';
+  end_body;
+end_primitive;
+primitive 'INDUCTOR_1_SMR1206_1UH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTOR_1';
+    JEDEC_TYPE='SMR1206';
+    VALUE='1uH';
+  end_body;
+end_primitive;
+primitive 'FMMT497_SMSOT23_321_FMMT497';
+  pin
+    'B':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'E':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='FMMT497';
+    JEDEC_TYPE='SMSOT23_321';
+    VALUE='FMMT497';
+  end_body;
+end_primitive;
+primitive 'R_0_SMR0805_1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_0';
+    JEDEC_TYPE='SMR0805';
+    VALUE='1k';
+  end_body;
+end_primitive;
+primitive 'R_0_SMR0805_330';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_0';
+    JEDEC_TYPE='SMR0805';
+    VALUE='330';
+  end_body;
+end_primitive;
+primitive 'CP2103_4_QFN-28_LONG_CP2103';
+  pin
+    'VDD':
+      PIN_NUMBER='(6)';
+      PINUSE='POWER';
+    'VIO':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'SG':
+      PIN_NUMBER='(29)';
+      PINUSE='POWER';
+    'R\S\T\':
+      PIN_NUMBER='(9)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(OC,AND)';
+    'REGIN':
+      PIN_NUMBER='(7)';
+      PINUSE='POWER';
+    'VBUS':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(*)';
+    'D+':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'D-':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'TXD':
+      PIN_NUMBER='(25)';
+      OUTPUT_LOAD='(*)';
+    'RXD':
+      PIN_NUMBER='(24)';
+      INPUT_LOAD='(*)';
+    'C\T\S\':
+      PIN_NUMBER='(22)';
+      INPUT_LOAD='(*)';
+    'R\T\S\':
+      PIN_NUMBER='(23)';
+      OUTPUT_LOAD='(*)';
+    'D\T\R\':
+      PIN_NUMBER='(27)';
+      INPUT_LOAD='(*)';
+    'D\C\D\':
+      PIN_NUMBER='(28)';
+      INPUT_LOAD='(*)';
+    'R\I\':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'SUSPEND':
+      PIN_NUMBER='(12)';
+      OUTPUT_LOAD='(*)';
+    'S\U\S\P\E\N\D\':
+      PIN_NUMBER='(11)';
+      OUTPUT_LOAD='(*)';
+    'NC6':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'NC5':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    'NC4':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    'NC3':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    'NC2':
+      PIN_NUMBER='(20)';
+      PINUSE='UNSPEC';
+    'NC1':
+      PIN_NUMBER='(21)';
+      PINUSE='UNSPEC';
+    'GPIO.0':
+      PIN_NUMBER='(19)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'GPIO.1':
+      PIN_NUMBER='(18)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'GPIO.2':
+      PIN_NUMBER='(17)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'GPIO.3':
+      PIN_NUMBER='(16)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'PAD':
+      PIN_NUMBER='(30)';
+      PINUSE='UNSPEC';
+    'D\S\R\':
+      PIN_NUMBER='(26)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CP2103_4';
+    JEDEC_TYPE='QFN-28_long';
+    VALUE='CP2103';
+  end_body;
+end_primitive;
+primitive '74LVC1G07_14_SMSOT235_74LVC1G07';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'Y':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+    'NC':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='74LVC1G07_14';
+    JEDEC_TYPE='SMSOT235';
+    VALUE='74LVC1G07';
+  end_body;
+end_primitive;
+END.

@@ -1,0 +1,145 @@
+\t (00:18:49) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:18:49)     Journal start - Thu Sep 27 12:00:15 2018
+\t (00:18:49)         Host=STEPHEN-PC User=Stephen Pid=10180 CPUs=8
+\t (00:18:49) CmdLine= C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin\allegro.exe -orcad
+\t (00:18:49) 
+\d (00:18:49) Design opened: C:/Users/Stephen/Documents/SchoolworkUCSC/EE174/Tutorial/Lib/pcb_lib_Orcad/symbols/BCON156T/BCON156T_LLB.brd
+\i (00:18:49) generaledit 
+\i (00:18:50) zoom in 1 
+\i (00:18:50) setwindow pcb
+\i (00:18:50) zoom in 3847.0 16786.4
+\i (00:18:50) trapsize 809
+\i (00:18:50) zoom in 1 
+\i (00:18:50) setwindow pcb
+\i (00:18:50) zoom in 436.9 17045.3
+\i (00:18:50) trapsize 405
+\i (00:18:51) zoom in 1 
+\i (00:18:51) setwindow pcb
+\i (00:18:51) zoom in 1181.2 17126.2
+\i (00:18:51) trapsize 202
+\i (00:18:51) zoom in 1 
+\i (00:18:51) setwindow pcb
+\i (00:18:51) zoom in 1213.6 17122.1
+\i (00:18:51) trapsize 101
+\i (00:18:51) zoom in 1 
+\i (00:18:51) setwindow pcb
+\i (00:18:51) zoom in 1217.7 17120.1
+\i (00:18:51) trapsize 51
+\i (00:18:51) zoom out 1 
+\i (00:18:51) setwindow pcb
+\i (00:18:51) zoom out 1322.8 17037.2
+\i (00:18:51) trapsize 101
+\i (00:18:52) zoom out 1 
+\i (00:18:52) setwindow pcb
+\i (00:18:52) zoom out 1322.8 17037.3
+\i (00:18:52) trapsize 202
+\i (00:18:53) zoom out 1 
+\i (00:18:53) setwindow pcb
+\i (00:18:53) zoom out 4288.0 16264.6
+\i (00:18:53) trapsize 405
+\i (00:18:53) zoom out 1 
+\i (00:18:53) setwindow pcb
+\i (00:18:53) zoom out 4866.5 16264.5
+\i (00:18:53) trapsize 809
+\i (00:18:53) zoom out 1 
+\i (00:18:53) setwindow pcb
+\i (00:18:53) zoom out 14170.8 15864.1
+\i (00:18:53) trapsize 1618
+\i (00:18:54) zoom in 1 
+\i (00:18:54) setwindow pcb
+\i (00:18:54) zoom in 13361.6 11802.6
+\i (00:18:54) trapsize 809
+\i (00:18:55) zoom in 1 
+\i (00:18:55) setwindow pcb
+\i (00:18:55) zoom in 4611.6 11996.8
+\i (00:18:55) trapsize 405
+\t (00:18:59) Pick to complete the window.
+\i (00:19:00) zoom points
+\i (00:19:00) pick 8284.8 11171.5
+\i (00:19:00) pick 5855.3 12279.9
+\i (00:19:00) trapsize 66
+\i (00:19:00) generaledit 
+\i (00:19:01) zoom out 1 
+\i (00:19:01) setwindow pcb
+\i (00:19:01) zoom out 6760.1 11870.1
+\i (00:19:01) trapsize 131
+\i (00:19:01) zoom out 1 
+\i (00:19:01) setwindow pcb
+\i (00:19:01) zoom out 6760.2 11870.2
+\i (00:19:01) trapsize 263
+\i (00:19:02) zoom out 1 
+\i (00:19:02) setwindow pcb
+\i (00:19:02) zoom out 6760.2 11870.2
+\i (00:19:02) trapsize 525
+\i (00:19:02) zoom out 1 
+\i (00:19:02) setwindow pcb
+\i (00:19:02) zoom out 6760.1 11870.3
+\i (00:19:02) trapsize 1051
+\i (00:19:02) zoom out 1 
+\i (00:19:02) setwindow pcb
+\i (00:19:02) zoom out 9942.7 11870.3
+\i (00:19:02) trapsize 1618
+\i (00:19:03) zoom in 1 
+\i (00:19:03) setwindow pcb
+\i (00:19:03) zoom in -165.9 20669.9
+\i (00:19:03) trapsize 809
+\i (00:19:03) zoom in 1 
+\i (00:19:03) setwindow pcb
+\i (00:19:03) zoom in -987.0 20669.9
+\i (00:19:03) trapsize 405
+\i (00:19:03) zoom in 1 
+\i (00:19:03) setwindow pcb
+\i (00:19:03) zoom in -800.9 20532.4
+\i (00:19:03) trapsize 202
+\i (00:19:04) zoom in 1 
+\i (00:19:04) setwindow pcb
+\i (00:19:04) zoom in 1302.7 19622.2
+\i (00:19:04) trapsize 101
+\i (00:19:05) zoom out 1 
+\i (00:19:05) setwindow pcb
+\i (00:19:05) zoom out 1292.6 19610.1
+\i (00:19:05) trapsize 202
+\i (00:19:07) zoom out 1 
+\i (00:19:07) setwindow pcb
+\i (00:19:07) zoom out 127.6 19606.0
+\i (00:19:07) trapsize 405
+\i (00:19:07) zoom out 1 
+\i (00:19:07) setwindow pcb
+\i (00:19:07) zoom out 127.6 19606.0
+\i (00:19:07) trapsize 809
+\i (00:19:07) zoom out 1 
+\i (00:19:07) setwindow pcb
+\i (00:19:07) zoom out 1096.3 17838.2
+\i (00:19:07) trapsize 1618
+\i (00:19:08) zoom in 1 
+\i (00:19:08) setwindow pcb
+\i (00:19:08) zoom in 22196.5 9504.9
+\i (00:19:08) trapsize 809
+\i (00:19:08) zoom in 1 
+\i (00:19:08) setwindow pcb
+\i (00:19:08) zoom in 10161.8 9456.4
+\i (00:19:08) trapsize 405
+\i (00:19:08) zoom in 1 
+\i (00:19:08) setwindow pcb
+\i (00:19:08) zoom in 10153.7 9456.4
+\i (00:19:08) trapsize 202
+\i (00:19:09) zoom out 1 
+\i (00:19:09) setwindow pcb
+\i (00:19:09) zoom out 10186.1 10257.3
+\i (00:19:09) trapsize 405
+\i (00:19:09) zoom out 1 
+\i (00:19:09) setwindow pcb
+\i (00:19:09) zoom out 10186.1 10257.4
+\i (00:19:09) trapsize 809
+\i (00:19:09) zoom out 1 
+\i (00:19:09) setwindow pcb
+\i (00:19:09) zoom out 10186.2 10257.4
+\i (00:19:09) trapsize 1618
+\i (10:21:39) open 
+\i (10:22:13) fillin "C:\Users\Stephen\Documents\SchoolworkUCSC\EE174\Tutorial\Lib\symbols\AX400_35D.dra"
+\i (10:22:13) cd "C:\Users\Stephen\Documents\SchoolworkUCSC\EE174\Tutorial\Lib\symbols"
+\t (10:22:13) Opening existing design...
+\i (10:22:14) fillin yes 
+\i (10:22:14) trapsize 18
+\i (10:22:14) trapsize 28
+\t (10:22:14)     Journal end - Thu Sep 27 22:03:40 2018

@@ -1,0 +1,158 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : ee174tutorial.brd                             )
+(    Software Version : 16.6-2015S059                                 )
+(    Date/Time        : Wed Jan 02 13:56:25 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U2 / ATF16V8BQL_3_DIP100_20_W300_L97 / DIP100_20_W300_L975 at (13062.0 15062.0)
+         Placed symbol:  U1 / HT12E_4_DIP100_18_W300_L950_HT1 / DIP100_18_W300_L950 at (14103.0 15062.0)
+         Placed symbol:  J1 / JUMPER8_BCON_8X2V_100S_1SQ_42D_ / BCON_8X2V_100S_1SQ_42D at (13062.0 15478.0)
+         Placed symbol:  U3 / 74HC00_8_DIP100_14_W300_L700_74 / DIP100_14_W300_L700 at (13878.0 15478.0)
+         Placed symbol:  J2 / 10PIN 1ROW HEADER_BCON_10X1V_10 / BCON_10X1V_100S_1SQ_42D at (13067.0 15894.0)
+         Placed symbol:  J4 / 10PIN 1ROW HEADER_BCON_10X1V_10 / BCON_10X1V_100S_1SQ_42D at (13067.0 16010.0)
+         Placed symbol:  Q1 / TPS1120_1_SOJ50_8_WB150_L150_TP / SOJ50_8_WB150_L150 at (14069.0 16014.0)
+         Placed symbol:  J5 / JUMPER3_BCON_3X2V_100S_42D_JUMP / BCON_3X2V_100S_42D at (14312.0 16006.0)
+         Placed symbol:  U4 / LM317_1_SMSOT223_1234_LM317A/SO / SMSOT223_1234 at (14615.0 16015.0)
+         Placed symbol:  SW9 / SW_SL_SPDT_0_SPDT_EG1206_SW_SL_ / SPDT_EG1206 at (13343.0 16586.0)
+         Placed symbol:  D2 / LED_0_SMD_0805_21_GREEN / SMD_0805_21 at (13816.5 16380.5)
+         Placed symbol:  D1 / DIODE SCHOTTKY_0_AX400_35D_1N58 / AX400_35D at (13935.0 16380.0)
+         Placed symbol:  C6 / C NP_1_SMC0805_10NF / SMC0805 at (14426.5 16366.5)
+         Placed symbol:  J3 / 2PIN HEADER_0_BCON_2X1V_100S_1S / BCON_2X1V_100S_1SQ_42D at (14613.5 16380.0)
+         Placed symbol:  C2 / C NP_1_SMC0805_100NF / SMC0805 at (14816.5 16366.5)
+         Placed symbol:  D3 / LED_0_SMD_0805_21_RED / SMD_0805_21 at (13138.5 16778.5)
+         Placed symbol:  J6 / 2PIN HEADER_0_BCON_2X1V_100S__1 / BCON_2X1V_100S_1SQ_42D at (13242.5 16778.0)
+         Placed symbol:  R1 / R_SMR0805_1M / SMR0805 at (13445.5 16764.5)
+         Placed symbol:  R10 / R_SMR0805_1K / SMR0805 at (13619.5 16764.5)
+         Placed symbol:  R11 / R_SMR0805_1K / SMR0805 at (13793.5 16764.5)
+         Placed symbol:  C5 / C NP_1_SMC0805_0.1UF / SMC0805 at (13967.5 16764.5)
+         Placed symbol:  R3 / R_SMR0805_470 / SMR0805 at (14141.5 16764.5)
+         Placed symbol:  C7 / C NP_1_SMC0805_0.1UF / SMC0805 at (14315.5 16764.5)
+         Placed symbol:  R5 / R_SMR0805_R / SMR0805 at (14489.5 16764.5)
+         Placed symbol:  R4 / R_SMR0805_120K / SMR0805 at (14663.5 16764.5)
+         Placed symbol:  R7 / R_SMR0805_47K / SMR0805 at (14837.5 16764.5)
+         Placed symbol:  R8 / R_SMR0805_47K / SMR0805 at (13049.0 16881.5)
+         Placed symbol:  R9 / R_SMR0805_47K / SMR0805 at (13223.0 16881.5)
+WARNING: Could not place:  SW1 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D; outside of drawing extents
+WARNING: Could not place:  SW2 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D; outside of drawing extents
+WARNING: Could not place:  SW3 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D; outside of drawing extents
+WARNING: Could not place:  SW4 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D; outside of drawing extents
+WARNING: Could not place:  SW5 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D; outside of drawing extents
+WARNING: Could not place:  SW6 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D; outside of drawing extents
+WARNING: Could not place:  SW7 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D; outside of drawing extents
+WARNING: Could not place:  SW8 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D; outside of drawing extents
+         Placed symbol:  R6 / R_SMR0805_240 / SMR0805 at (13397.0 16881.5)
+         Placed symbol:  C4 / C NP_1_SMC0805_0.1UF / SMC0805 at (13571.0 16881.5)
+         Placed symbol:  C3 / C NP_1_SMC0805_0.1UF / SMC0805 at (13745.0 16881.5)
+         Placed symbol:  R2 / R_SMR0805_4.7K / SMR0805 at (13919.0 16881.5)
+         Placed symbol:  C1 / C NP_1_SMC0805_0.1UF / SMC0805 at (14093.0 16881.5)
+
+
+Placed 33 of 41 applicable (41 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+         Placed symbol:  U2 / ATF16V8BQL_3_DIP100_20_W300_L97 / DIP100_20_W300_L975 at (13062.0 15062.0)
+         Placed symbol:  U1 / HT12E_4_DIP100_18_W300_L950_HT1 / DIP100_18_W300_L950 at (14103.0 15062.0)
+         Placed symbol:  J1 / JUMPER8_BCON_8X2V_100S_1SQ_42D_ / BCON_8X2V_100S_1SQ_42D at (12238.0 14838.0)
+         Placed symbol:  U3 / 74HC00_8_DIP100_14_W300_L700_74 / DIP100_14_W300_L700 at (12338.0 14422.0)
+         Placed symbol:  J2 / 10PIN 1ROW HEADER_BCON_10X1V_10 / BCON_10X1V_100S_1SQ_42D at (12033.0 14306.0)
+         Placed symbol:  J4 / 10PIN 1ROW HEADER_BCON_10X1V_10 / BCON_10X1V_100S_1SQ_42D at (12033.0 14190.0)
+         Placed symbol:  Q1 / TPS1120_1_SOJ50_8_WB150_L150_TP / SOJ50_8_WB150_L150 at (12807.0 13860.0)
+         Placed symbol:  J5 / JUMPER3_BCON_3X2V_100S_42D_JUMP / BCON_3X2V_100S_42D at (12742.0 13644.0)
+         Placed symbol:  U4 / LM317_1_SMSOT223_1234_LM317A/SO / SMSOT223_1234 at (12767.0 13283.0)
+         Placed symbol:  SW9 / SW_SL_SPDT_0_SPDT_EG1206_SW_SL_ / SPDT_EG1206 at (12657.0 13086.0)
+         Placed symbol:  D2 / LED_0_SMD_0805_21_GREEN / SMD_0805_21 at (12950.0 12763.5)
+         Placed symbol:  D1 / DIODE SCHOTTKY_0_AX400_35D_1N58 / AX400_35D at (12549.5 12647.0)
+         Placed symbol:  C6 / C NP_1_SMC0805_10NF / SMC0805 at (12867.0 12544.5)
+         Placed symbol:  J3 / 2PIN HEADER_0_BCON_2X1V_100S_1S / BCON_2X1V_100S_1SQ_42D at (12838.0 12442.0)
+         Placed symbol:  C2 / C NP_1_SMC0805_100NF / SMC0805 at (12867.0 12339.5)
+         Placed symbol:  D3 / LED_0_SMD_0805_21_RED / SMD_0805_21 at (12950.0 12236.5)
+         Placed symbol:  J6 / 2PIN HEADER_0_BCON_2X1V_100S__1 / BCON_2X1V_100S_1SQ_42D at (12838.0 12120.0)
+         Placed symbol:  R1 / R_SMR0805_1M / SMR0805 at (12867.0 12017.5)
+         Placed symbol:  R10 / R_SMR0805_1K / SMR0805 at (12867.0 11928.5)
+         Placed symbol:  R11 / R_SMR0805_1K / SMR0805 at (12867.0 11839.5)
+         Placed symbol:  C5 / C NP_1_SMC0805_0.1UF / SMC0805 at (12867.0 11750.5)
+         Placed symbol:  R3 / R_SMR0805_470 / SMR0805 at (12867.0 11661.5)
+         Placed symbol:  C7 / C NP_1_SMC0805_0.1UF / SMC0805 at (12867.0 11572.5)
+         Placed symbol:  R5 / R_SMR0805_R / SMR0805 at (12867.0 11483.5)
+         Placed symbol:  R4 / R_SMR0805_120K / SMR0805 at (12867.0 11394.5)
+         Placed symbol:  R7 / R_SMR0805_47K / SMR0805 at (12867.0 11305.5)
+         Placed symbol:  R8 / R_SMR0805_47K / SMR0805 at (12867.0 11216.5)
+         Placed symbol:  R9 / R_SMR0805_47K / SMR0805 at (12867.0 11127.5)
+         Placed symbol:  SW1 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (12732.0 10739.0)
+         Placed symbol:  SW2 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (12732.0 10351.0)
+         Placed symbol:  SW3 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (12732.0 9963.0)
+         Placed symbol:  SW4 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (12732.0 9575.0)
+         Placed symbol:  SW5 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (12732.0 9187.0)
+         Placed symbol:  SW6 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (13068.0 15464.0)
+         Placed symbol:  SW7 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (13396.0 15464.0)
+         Placed symbol:  SW8 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (13724.0 15464.0)
+         Placed symbol:  R6 / R_SMR0805_240 / SMR0805 at (14033.0 15464.5)
+         Placed symbol:  C4 / C NP_1_SMC0805_0.1UF / SMC0805 at (14207.0 15464.5)
+         Placed symbol:  C3 / C NP_1_SMC0805_0.1UF / SMC0805 at (14381.0 15464.5)
+         Placed symbol:  R2 / R_SMR0805_4.7K / SMR0805 at (14555.0 15464.5)
+         Placed symbol:  C1 / C NP_1_SMC0805_0.1UF / SMC0805 at (14729.0 15464.5)
+
+
+Placed 41 of 41 applicable (41 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+         Placed symbol:  U2 / ATF16V8BQL_3_DIP100_20_W300_L97 / DIP100_20_W300_L975 at (12038.0 14638.0)
+         Placed symbol:  U1 / HT12E_4_DIP100_18_W300_L950_HT1 / DIP100_18_W300_L950 at (12113.0 14222.0)
+         Placed symbol:  J1 / JUMPER8_BCON_8X2V_100S_1SQ_42D_ / BCON_8X2V_100S_1SQ_42D at (12238.0 14006.0)
+         Placed symbol:  U3 / 74HC00_8_DIP100_14_W300_L700_74 / DIP100_14_W300_L700 at (12338.0 13590.0)
+         Placed symbol:  J2 / 10PIN 1ROW HEADER_BCON_10X1V_10 / BCON_10X1V_100S_1SQ_42D at (12033.0 13474.0)
+         Placed symbol:  J4 / 10PIN 1ROW HEADER_BCON_10X1V_10 / BCON_10X1V_100S_1SQ_42D at (12033.0 13358.0)
+         Placed symbol:  Q1 / TPS1120_1_SOJ50_8_WB150_L150_TP / SOJ50_8_WB150_L150 at (12807.0 13028.0)
+         Placed symbol:  J5 / JUMPER3_BCON_3X2V_100S_42D_JUMP / BCON_3X2V_100S_42D at (12742.0 12812.0)
+         Placed symbol:  U4 / LM317_1_SMSOT223_1234_LM317A/SO / SMSOT223_1234 at (12767.0 12451.0)
+         Placed symbol:  SW9 / SW_SL_SPDT_0_SPDT_EG1206_SW_SL_ / SPDT_EG1206 at (12657.0 12254.0)
+         Placed symbol:  D2 / LED_0_SMD_0805_21_GREEN / SMD_0805_21 at (12950.0 11931.5)
+         Placed symbol:  D1 / DIODE SCHOTTKY_0_AX400_35D_1N58 / AX400_35D at (12549.5 11815.0)
+         Placed symbol:  C6 / C NP_1_SMC0805_10NF / SMC0805 at (12867.0 11712.5)
+         Placed symbol:  J3 / 2PIN HEADER_0_BCON_2X1V_100S_1S / BCON_2X1V_100S_1SQ_42D at (12838.0 11610.0)
+         Placed symbol:  C2 / C NP_1_SMC0805_100NF / SMC0805 at (12867.0 11507.5)
+         Placed symbol:  D3 / LED_0_SMD_0805_21_RED / SMD_0805_21 at (12950.0 11404.5)
+         Placed symbol:  J6 / 2PIN HEADER_0_BCON_2X1V_100S__1 / BCON_2X1V_100S_1SQ_42D at (12838.0 11288.0)
+         Placed symbol:  R1 / R_SMR0805_1M / SMR0805 at (12867.0 11185.5)
+         Placed symbol:  R10 / R_SMR0805_1K / SMR0805 at (12867.0 11096.5)
+         Placed symbol:  R11 / R_SMR0805_1K / SMR0805 at (12867.0 11007.5)
+         Placed symbol:  C5 / C NP_1_SMC0805_0.1UF / SMC0805 at (12867.0 10918.5)
+         Placed symbol:  R3 / R_SMR0805_470 / SMR0805 at (12867.0 10829.5)
+         Placed symbol:  C7 / C NP_1_SMC0805_0.1UF / SMC0805 at (12867.0 10740.5)
+         Placed symbol:  R5 / R_SMR0805_R / SMR0805 at (12867.0 10651.5)
+         Placed symbol:  R4 / R_SMR0805_120K / SMR0805 at (12867.0 10562.5)
+         Placed symbol:  R7 / R_SMR0805_47K / SMR0805 at (12867.0 10473.5)
+         Placed symbol:  R8 / R_SMR0805_47K / SMR0805 at (12867.0 10384.5)
+         Placed symbol:  R9 / R_SMR0805_47K / SMR0805 at (12867.0 10295.5)
+         Placed symbol:  SW1 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (12732.0 9907.0)
+         Placed symbol:  SW2 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (12732.0 9519.0)
+         Placed symbol:  SW3 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (12732.0 9131.0)
+         Placed symbol:  SW4 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (11706.0 14652.0)
+         Placed symbol:  SW5 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (11706.0 14264.0)
+         Placed symbol:  SW6 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (11706.0 13876.0)
+         Placed symbol:  SW7 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (11706.0 13488.0)
+         Placed symbol:  SW8 / SW PUSHBUTTON_B3F-1000_38D_SW P / B3F-1000_38D at (11706.0 13100.0)
+         Placed symbol:  R6 / R_SMR0805_240 / SMR0805 at (11841.0 13011.5)
+         Placed symbol:  C4 / C NP_1_SMC0805_0.1UF / SMC0805 at (11841.0 12922.5)
+         Placed symbol:  C3 / C NP_1_SMC0805_0.1UF / SMC0805 at (11841.0 12833.5)
+         Placed symbol:  R2 / R_SMR0805_4.7K / SMR0805 at (11841.0 12744.5)
+         Placed symbol:  C1 / C NP_1_SMC0805_0.1UF / SMC0805 at (11841.0 12655.5)
+
+
+Placed 41 of 41 applicable (41 total) symbols.
+
+-----------------------------------------------------------------------
+

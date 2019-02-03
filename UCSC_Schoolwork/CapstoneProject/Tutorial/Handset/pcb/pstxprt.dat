@@ -1,0 +1,448 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Sep-27-2018 at 23:30:36 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='EE174TUTORIAL';
+ POST_TIME='Apr 15 2018 17:30:46';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C NP_1_SMC0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1315@EE174TUTORIAL.C NP_1.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1315@ee174tutorial.\c np_1.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1315@ee174tutorial.\c np_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C NP_1_SMC0805_100NF':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS2997@EE174TUTORIAL.C NP_1.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins2997@ee174tutorial.\c np_1.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins2997@ee174tutorial.\c np_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C NP_1_SMC0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS3013@EE174TUTORIAL.C NP_1.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins3013@ee174tutorial.\c np_1.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins3013@ee174tutorial.\c np_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C NP_1_SMC0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS2793@EE174TUTORIAL.C NP_1.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins2793@ee174tutorial.\c np_1.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins2793@ee174tutorial.\c np_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C NP_1_SMC0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS2777@EE174TUTORIAL.C NP_1.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins2777@ee174tutorial.\c np_1.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins2777@ee174tutorial.\c np_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C NP_1_SMC0805_10NF':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS952@EE174TUTORIAL.C NP_1.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins952@ee174tutorial.\c np_1.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins952@ee174tutorial.\c np_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C NP_1_SMC0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS3029@EE174TUTORIAL.C NP_1.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins3029@ee174tutorial.\c np_1.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins3029@ee174tutorial.\c np_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'DIODE SCHOTTKY_0_AX400_35D_1N58':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS2698@EE174TUTORIAL.DIODE SCHOTTKY_0.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins2698@ee174tutorial.\diode schottky_0.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins2698@ee174tutorial.\diode schottky_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_0_SMD_0805_21_GREEN':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS2752@EE174TUTORIAL.LED_0.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins2752@ee174tutorial.\led_0.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins2752@ee174tutorial.\led_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_0_SMD_0805_21_RED':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS827@EE174TUTORIAL.LED_0.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins827@ee174tutorial.\led_0.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins827@ee174tutorial.\led_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'JUMPER8_BCON_8X2V_100S_1SQ_42D_':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS880@EE174TUTORIAL.JUMPER8.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins880@ee174tutorial.\jumper8.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins880@ee174tutorial.\jumper8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 '10PIN 1ROW HEADER_BCON_10X1V_10':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1110@EE174TUTORIAL.10PIN 1ROW HEADER.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1110@ee174tutorial.\10pin 1row header.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1110@ee174tutorial.\10pin 1row header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 '2PIN HEADER_0_BCON_2X1V_100S_1S':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1438@EE174TUTORIAL.2PIN HEADER_0.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1438@ee174tutorial.\2pin header_0.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins1438@ee174tutorial.\2pin header_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 '10PIN 1ROW HEADER_BCON_10X1V_10':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1142@EE174TUTORIAL.10PIN 1ROW HEADER.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1142@ee174tutorial.\10pin 1row header.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1142@ee174tutorial.\10pin 1row header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'JUMPER3_BCON_3X2V_100S_42D_JUMP':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1248@EE174TUTORIAL.JUMPER3.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1248@ee174tutorial.\jumper3.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1248@ee174tutorial.\jumper3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 '2PIN HEADER_0_BCON_2X1V_100S__1':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS931@EE174TUTORIAL.2PIN HEADER_0.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins931@ee174tutorial.\2pin header_0.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins931@ee174tutorial.\2pin header_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'TPS1120_1_SOJ50_8_WB150_L150_TP':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS631@EE174TUTORIAL.TPS1120_1.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins631@ee174tutorial.\tps1120_1.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins631@ee174tutorial.\tps1120_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='-1';
+
+SECTION_NUMBER 2
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS712@EE174TUTORIAL.TPS1120_1.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins712@ee174tutorial.\tps1120_1.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins712@ee174tutorial.\tps1120_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='-2';
+
+PART_NAME
+ R1 'R_SMR0805_1M':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1290@EE174TUTORIAL.R.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1290@ee174tutorial.\r.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1290@ee174tutorial.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS3086@EE174TUTORIAL.R.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins3086@ee174tutorial.\r.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins3086@ee174tutorial.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS802@EE174TUTORIAL.R.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins802@ee174tutorial.\r.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins802@ee174tutorial.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_SMR0805_4.7K':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS3118@EE174TUTORIAL.R.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins3118@ee174tutorial.\r.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins3118@ee174tutorial.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_SMR0805_470':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS3102@EE174TUTORIAL.R.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins3102@ee174tutorial.\r.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins3102@ee174tutorial.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_SMR0805_120K':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS3134@EE174TUTORIAL.R.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins3134@ee174tutorial.\r.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins3134@ee174tutorial.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_SMR0805_R':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS3070@EE174TUTORIAL.R.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins3070@ee174tutorial.\r.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins3070@ee174tutorial.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_SMR0805_240':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS3054@EE174TUTORIAL.R.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins3054@ee174tutorial.\r.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins3054@ee174tutorial.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_SMR0805_47K':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1215@EE174TUTORIAL.R.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1215@ee174tutorial.\r.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1215@ee174tutorial.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_SMR0805_47K':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1199@EE174TUTORIAL.R.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1199@ee174tutorial.\r.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1199@ee174tutorial.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_SMR0805_47K':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1183@EE174TUTORIAL.R.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1183@ee174tutorial.\r.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1183@ee174tutorial.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'SW PUSHBUTTON_B3F-1000_38D_SW P':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS989@EE174TUTORIAL.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins989@ee174tutorial.\sw pushbutton.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins989@ee174tutorial.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW2 'SW PUSHBUTTON_B3F-1000_38D_SW P':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1001@EE174TUTORIAL.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1001@ee174tutorial.\sw pushbutton.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1001@ee174tutorial.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW3 'SW PUSHBUTTON_B3F-1000_38D_SW P':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1013@EE174TUTORIAL.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1013@ee174tutorial.\sw pushbutton.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1013@ee174tutorial.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW4 'SW PUSHBUTTON_B3F-1000_38D_SW P':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1025@EE174TUTORIAL.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1025@ee174tutorial.\sw pushbutton.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1025@ee174tutorial.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW5 'SW PUSHBUTTON_B3F-1000_38D_SW P':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1037@EE174TUTORIAL.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1037@ee174tutorial.\sw pushbutton.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1037@ee174tutorial.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW6 'SW PUSHBUTTON_B3F-1000_38D_SW P':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1049@EE174TUTORIAL.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1049@ee174tutorial.\sw pushbutton.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1049@ee174tutorial.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW7 'SW PUSHBUTTON_B3F-1000_38D_SW P':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1061@EE174TUTORIAL.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1061@ee174tutorial.\sw pushbutton.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1061@ee174tutorial.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW8 'SW PUSHBUTTON_B3F-1000_38D_SW P':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS1073@EE174TUTORIAL.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins1073@ee174tutorial.\sw pushbutton.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins1073@ee174tutorial.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW9 'SW_SL_SPDT_0_SPDT_EG1206_SW_SL_':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS2725@EE174TUTORIAL.SW_SL_SPDT_0.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins2725@ee174tutorial.\sw_sl_spdt_0.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins2725@ee174tutorial.\sw_sl_spdt_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'HT12E_4_DIP100_18_W300_L950_HT1':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS265@EE174TUTORIAL.HT12E_4.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins265@ee174tutorial.\ht12e_4.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins265@ee174tutorial.\ht12e_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'ATF16V8BQL_3_DIP100_20_W300_L97':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS98@EE174TUTORIAL.ATF16V8BQL_3.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins98@ee174tutorial.\atf16v8bql_3.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page3_ins98@ee174tutorial.\atf16v8bql_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 '74HC00_8_DIP100_14_W300_L700_74':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS44101@EE174TUTORIAL.74HC00_8.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins44101@ee174tutorial.\74hc00_8.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins44101@ee174tutorial.\74hc00_8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS33953@EE174TUTORIAL.74HC00_8.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins33953@ee174tutorial.\74hc00_8.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins33953@ee174tutorial.\74hc00_8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS34067@EE174TUTORIAL.74HC00_8.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins34067@ee174tutorial.\74hc00_8.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins34067@ee174tutorial.\74hc00_8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS34181@EE174TUTORIAL.74HC00_8.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins34181@ee174tutorial.\74hc00_8.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins34181@ee174tutorial.\74hc00_8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U4 'LM317_1_SMSOT223_1234_LM317A/SO':;
+
+SECTION_NUMBER 1
+ '@EE174TUTORIAL.HANDSET(SCH_1):INS2605@EE174TUTORIAL.LM317_1.NORMAL(CHIPS)':
+ C_PATH='@ee174tutorial.handset(sch_1):ins2605@ee174tutorial.\lm317_1.normal\(chips)',
+ P_PATH='@ee174tutorial.handset(sch_1):page2_ins2605@ee174tutorial.\lm317_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

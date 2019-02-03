@@ -1,0 +1,22 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : ee174tutorial.brd                             )
+(    Software Version : 16.6-2015S059                                 )
+(    Date/Time        : Thu Jan 03 17:07:36 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 5
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+	Point on shape: (1093.1 1250.1)  Net: GND
+	Point on shape: (931.1 1250.1)  Net: GND
+	Point on shape: (1219.1 1273.1)  Net: GND
+	Point on shape: (836.8 1264.1)  Net: GND
+	Point on shape: (1085.9 2552.3)  Net: GND
