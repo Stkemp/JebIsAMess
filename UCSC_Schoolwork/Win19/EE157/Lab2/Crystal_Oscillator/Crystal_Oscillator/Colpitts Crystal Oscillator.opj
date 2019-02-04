@@ -1,0 +1,94 @@
+(ExpressProject "Colpitts Crystal Oscillator"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "C:\Users\Stephen\Documents\SchoolworkUCSC\EE174\Tutorial\Handset\LIBRARY2.OLB"
+        (Type "Schematic Library"))
+      (File "..\lib\ee174reflib.olb"
+        (Type "Schematic Library"))
+      (File "..\lib\ee174tutorial.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\colpitts crystal oscillator.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ATS100B
+      (FullPartName "ATS100B.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\HANDSET\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (2N3904
+      (FullPartName "2N3904.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (EE174TitleBlock
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\LIB\EE174REFLIB.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Stephen")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\colpitts crystal oscillator.dsn")
+      (Path "Design Resources"
+         "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\colpitts crystal oscillator.dsn"
+         "Colpitts Crystal Oscillator")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\Users\Stephen\Documents\SchoolworkUCSC\EE174\Tutorial\Handset\LIBRARY2.OLB")
+      (Path "Design Resources" "Library"
+         "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\lib\ee174reflib.olb")
+      (Path "Design Resources" "Library"
+         "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\lib\ee174tutorial.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 492"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1675 50 580")
+        (Scroll "-96 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB2\CRYSTAL_OSCILLATOR\CRYSTAL_OSCILLATOR\COLPITTS CRYSTAL OSCILLATOR.DSN")
+      (Schematic "Colpitts Crystal Oscillator")
+      (Page "revisions"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1700 75 605")
+        (Scroll "603 710")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB2\CRYSTAL_OSCILLATOR\CRYSTAL_OSCILLATOR\COLPITTS CRYSTAL OSCILLATOR.DSN")
+      (Schematic "Colpitts Crystal Oscillator")
+      (Page "Oscillator"))))
