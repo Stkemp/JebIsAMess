@@ -1,0 +1,192 @@
+\t (00:00:03) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:00:03)     Journal start - Thu Feb 07 19:11:05 2019
+\t (00:00:03)         Host=STEPHEN-PC User=Stephen Pid=9384 CPUs=8
+\t (00:00:03) CmdLine= C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin\allegro.exe -orcad
+\t (00:00:03) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/EE174/Tutorial/Handset/pcb/ee174tutorial.brd
+\i (00:00:03) trapsize 126
+\i (00:00:03) trapsize 124
+\i (00:00:03) trapsize 127
+\i (00:00:03) trapsize 127
+\i (00:00:04) generaledit 
+\i (00:00:06) zoom out 0.100000 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 682.1 2661.0 0.1
+\i (00:00:06) trapsize 139
+\i (00:00:06) zoom out 0.100000 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 682.1 2661.0 0.1
+\i (00:00:06) trapsize 153
+\i (00:00:06) zoom out 0.100000 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 682.0 2661.0 0.1
+\i (00:00:06) trapsize 169
+\i (00:00:06) zoom out 0.100000 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 682.0 2661.1 0.1
+\i (00:00:06) trapsize 186
+\i (00:00:06) zoom out 0.100000 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 682.0 2661.1 0.1
+\i (00:00:06) trapsize 204
+\i (00:00:06) zoom out 0.100000 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 682.0 2661.1 0.1
+\i (00:00:06) trapsize 225
+\i (00:00:06) zoom out 0.100000 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 677.6 2661.1 0.1
+\i (00:00:06) trapsize 247
+\i (00:00:06) zoom out 0.100000 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 677.5 2661.1 0.1
+\i (00:00:06) trapsize 272
+\i (00:00:06) zoom out 0.100000 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 677.6 2661.1 0.1
+\i (00:00:06) trapsize 299
+\i (00:00:06) zoom out 0.100000 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 677.7 2661.2 0.1
+\i (00:00:06) trapsize 329
+\i (00:00:12) pick grid -1708.7 3739.4
+\t (00:00:12) last pick:  -1700.0 3750.0
+\i (00:00:13) zoom in 0.100000 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in -1997.9 3686.8 0.1
+\i (00:00:13) trapsize 299
+\i (00:00:14) zoom out 0.100000 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out -754.8 3358.2 0.1
+\i (00:00:14) trapsize 329
+\i (00:00:14) zoom out 0.100000 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out -722.0 3345.1 0.1
+\i (00:00:14) trapsize 362
+\i (00:00:14) zoom out 0.100000 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out -894.9 3345.2 0.1
+\i (00:00:14) trapsize 398
+\i (00:00:15) roam start
+\i (00:00:15) roam y 80
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y 64
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y 48
+\i (00:00:16) roam x -16
+\i (00:00:16) roam y 64
+\i (00:00:16) roam end
+\i (00:00:16) roam start
+\i (00:00:16) roam y -48
+\i (00:00:16) roam x 32
+\i (00:00:16) roam y -80
+\i (00:00:17) roam x 16
+\i (00:00:17) roam y -64
+\i (00:00:17) roam y -64
+\i (00:00:17) roam y -16
+\i (00:00:17) roam y -64
+\i (00:00:17) roam y -48
+\i (00:00:17) roam y -48
+\i (00:00:17) roam y -80
+\i (00:00:17) roam y -32
+\i (00:00:17) roam y 16
+\i (00:00:17) roam y 48
+\i (00:00:18) roam y 48
+\i (00:00:18) roam y 32
+\i (00:00:18) roam y 32
+\i (00:00:18) roam y 32
+\i (00:00:18) roam y 32
+\i (00:00:18) roam y 32
+\i (00:00:18) roam end
+\i (00:00:18) drag_start grid -747.1 2110.0
+\i (00:00:19) drag_stop -1900.4 2078.2
+\i (00:00:19) prepopup -1550.4 2452.0
+\i (00:00:20) pick grid -2139.1 2619.1
+\t (00:00:20) last pick:  -2150.0 2600.0
+\i (00:00:20) roam start
+\i (00:00:20) roam x -48
+\i (00:00:20) roam x -16
+\i (00:00:21) roam x 32
+\i (00:00:21) roam x 32
+\i (00:00:21) roam y 16
+\i (00:00:21) roam y 16
+\i (00:00:21) roam y -32
+\i (00:00:21) roam y -32
+\i (00:00:21) roam y -32
+\i (00:00:21) roam y -32
+\i (00:00:21) roam y -16
+\i (00:00:21) roam y -16
+\i (00:00:21) roam y -16
+\i (00:00:21) roam y -16
+\i (00:00:22) roam y 16
+\i (00:00:22) roam y 16
+\i (00:00:22) roam y 16
+\i (00:00:22) roam y 16
+\i (00:00:22) roam y 16
+\i (00:00:22) roam y 16
+\i (00:00:22) roam end
+\i (00:00:22) roam start
+\i (00:00:22) roam y 16
+\i (00:00:22) roam y 32
+\i (00:00:22) roam y 16
+\i (00:00:23) roam y 16
+\i (00:00:23) roam y 16
+\i (00:00:23) roam y 16
+\i (00:00:23) roam y -32
+\i (00:00:23) roam y -16
+\i (00:00:23) roam y -32
+\i (00:00:23) roam y -16
+\i (00:00:23) roam y -16
+\i (00:00:23) roam end
+\i (00:00:24) roam start
+\i (00:00:24) roam x -48
+\i (00:00:24) roam x -80
+\i (00:00:24) roam y 16
+\i (00:00:24) roam x -64
+\i (00:00:24) roam x -64
+\i (00:00:24) roam x -48
+\i (00:00:24) roam x -64
+\i (00:00:24) roam x -64
+\i (00:00:24) roam x -48
+\i (00:00:25) roam x -16
+\i (00:00:25) roam x -48
+\i (00:00:25) roam x -128
+\i (00:00:25) roam x -112
+\i (00:00:25) roam x -64
+\i (00:00:25) roam y -16
+\i (00:00:25) roam x 64
+\i (00:00:25) roam x 112
+\i (00:00:25) roam y -16
+\i (00:00:25) roam x 256
+\i (00:00:25) roam y -16
+\i (00:00:25) roam x 176
+\i (00:00:25) roam x 176
+\i (00:00:25) roam x 64
+\i (00:00:25) roam y 16
+\i (00:00:26) roam y 32
+\i (00:00:26) roam y 64
+\i (00:00:26) roam y 96
+\i (00:00:26) roam y 32
+\i (00:00:26) roam y 16
+\i (00:00:26) roam y -16
+\i (00:00:26) roam y -48
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -48
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -16
+\i (00:00:26) roam end
+\i (00:00:51) open 
+\i (00:09:28) fillin "menu_cancel"
+\i (00:09:28) generaledit 
+\i (00:09:34) open 
+\i (00:09:57) fillin "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\EE174\Tutorial\Lib\pcb_lib_Orcad\symbols\BCON100T\BLKCON100RHTM2OEW52532.dra"
+\i (00:09:57) cd "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\EE174\Tutorial\Lib\pcb_lib_Orcad\symbols\BCON100T"
+\t (00:09:57) Opening existing design...
+\i (00:10:01) fillin yes 
+\i (00:10:01) trapsize 86
+\i (00:10:01) trapsize 84
+\i (00:10:01) trapsize 86
+\i (00:10:01) trapsize 76
+\i (00:10:01) trapsize 167
+\t (00:10:02)     Journal end - Thu Feb 07 19:21:03 2019

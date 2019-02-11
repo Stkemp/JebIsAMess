@@ -1,0 +1,30 @@
+\t (00:10:02) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:10:02)     Journal start - Thu Feb 07 19:21:03 2019
+\t (00:10:02)         Host=STEPHEN-PC User=Stephen Pid=9384 CPUs=8
+\t (00:10:02) CmdLine= C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin\allegro.exe -orcad
+\t (00:10:02) 
+\d (00:10:02) Design opened: C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/EE174/Tutorial/Lib/pcb_lib_Orcad/symbols/BCON100T/BLKCON100RHTM2OEW52532.dra
+\i (00:10:02) generaledit 
+\i (00:10:03) zoom out 0.100000 
+\i (00:10:03) setwindow pcb
+\i (00:10:03) zoom out 1540.8 386.7 0.1
+\i (00:10:03) trapsize 167
+\i (00:10:03) zoom out 0.100000 
+\i (00:10:03) setwindow pcb
+\i (00:10:03) zoom out 1454.1 386.7 0.1
+\i (00:10:03) trapsize 167
+\i (00:10:04) roam start
+\i (00:10:04) roam end
+\i (00:10:05) drag_start grid 2414.7 520.1
+\i (00:10:05) drag_stop 2674.9 653.5
+\i (00:10:05) roam start
+\i (00:10:06) roam end
+\i (00:10:10) open 
+\e (00:10:10) Do you want to save the changes you made to BLKCON100RHTM2OEW52532.dra?
+\i (00:10:13) fillin no 
+\i (00:10:28) fillin "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\EE174\Tutorial\Lib\pcb_lib_Orcad\symbols\TO\TO220AA.dra"
+\i (00:10:28) cd "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\EE174\Tutorial\Lib\pcb_lib_Orcad\symbols\TO"
+\t (00:10:28) Opening existing design...
+\i (00:10:29) fillin yes 
+\i (00:10:29) trapsize 120
+\t (00:10:29)     Journal end - Thu Feb 07 19:21:31 2019

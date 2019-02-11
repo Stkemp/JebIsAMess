@@ -1,0 +1,39 @@
+Date and Time : 02/07/19 19:05:27
+
+--------------------------------------------------
+Checking Schematic: Colpitts Crystal Oscillator
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: Colpitts Crystal Oscillator
+--------------------------------------------------
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: COLPITTS CRYSTAL OSCILLATOR 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

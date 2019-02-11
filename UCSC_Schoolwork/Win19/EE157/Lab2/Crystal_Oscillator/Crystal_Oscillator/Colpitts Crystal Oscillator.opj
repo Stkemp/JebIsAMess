@@ -14,11 +14,88 @@
     (File ".\colpitts crystal oscillator.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
-  (Folder "Outputs")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "FALSE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File
+       "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB2\CRYSTAL_OSCILLATOR\CRYSTAL_OSCILLATOR\COLPITTS CRYSTAL OSCILLATOR.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "FALSE")
+    (DRC_Check_Normal_Convert_View_Sync "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "FALSE")
+    (DRC_Check_High_Speed_Props_Syntax "FALSE")
+    (DRC_Check_Missing_Pin_Numbers "FALSE")
+    (DRC_Check_Device_With_No_Pins "FALSE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
+    (DRC_Run_Physical_Custom_DRC "FALSE"))
+  (Folder "Outputs"
+    (File ".\colpitts crystal oscillator.drc"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (L7812/TO220
+      (FullPartName "L7812/TO220.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\HANDSET\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (LM7805/TO
+      (FullPartName "LM7805/TO.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\HANDSET\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    ("2Pin Header"
+      (FullPartName "2Pin Header.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB2\CRYSTAL_OSCILLATOR\LIB\EE174REFLIB.OLB")
+      (DeviceIndex "0"))
     (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (C
@@ -26,8 +103,9 @@
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (L7812/TO3
+      (FullPartName "L7812/TO3.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
       (DeviceIndex "0"))
     (ATS100B
       (FullPartName "ATS100B.Normal")
@@ -53,22 +131,17 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\colpitts crystal oscillator.dsn")
-      (Path "Design Resources"
-         "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\colpitts crystal oscillator.dsn"
-         "Colpitts Crystal Oscillator")
+         "c:\users\stephen\documents\jebisamess\ucsc_schoolwork\win19\ee157\lab2\crystal_oscillator\crystal_oscillator\colpitts crystal oscillator.dsn")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "C:\Users\Stephen\Documents\SchoolworkUCSC\EE174\Tutorial\Handset\LIBRARY2.OLB")
-      (Path "Design Resources" "Library"
-         "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\lib\ee174reflib.olb")
-      (Path "Design Resources" "Library"
-         "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\lib\ee174tutorial.olb"))
-    (HierarchyView)
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\stephen\documents\jebisamess\ucsc_schoolwork\win19\ee157\lab2\crystal_oscillator\crystal_oscillator\colpitts crystal oscillator.dsn"))
+    (HierarchyView
+      (Path "Colpitts Crystal Oscillator"))
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 492"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 492"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
@@ -84,9 +157,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 1700 75 605")
-        (Scroll "603 710")
-        (Zoom "200")
+        (Placement "44 2 3 -1 -1 -8 -30 250 1579 250 780")
+        (Scroll "108 536")
+        (Zoom "160")
         (Occurrence "/"))
       (Path
          "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB2\CRYSTAL_OSCILLATOR\CRYSTAL_OSCILLATOR\COLPITTS CRYSTAL OSCILLATOR.DSN")
