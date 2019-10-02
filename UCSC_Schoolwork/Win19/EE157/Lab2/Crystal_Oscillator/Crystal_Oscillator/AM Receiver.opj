@@ -1,0 +1,141 @@
+(ExpressProject "AM Receiver"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "c:\users\stephen\documents\jebisamess\ucsc_schoolwork\win19\ee157\lab3\amreceiver\lib\ee174reflib.olb"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\stephen\documents\jebisamess\ucsc_schoolwork\win19\ee157\lab3\amreceiver\lib\ee174tutorial.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\am receiver.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (COAX
+      (FullPartName "COAX.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    ("TRANSFORMER CT"
+      (FullPartName "TRANSFORMER CT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (ln4148s
+      (FullPartName "ln4148s.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB3\AMRECEIVER\LIB\EE174REFLIB.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (J300
+      (FullPartName "J300.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (2N3904
+      (FullPartName "2N3904.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (SA602
+      (FullPartName "SA602.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB3\AMRECEIVER\LIB\EE174REFLIB.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Stephen")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\am receiver.dsn")
+      (Path "Design Resources"
+         "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\am receiver.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\stephen\documents\jebisamess\ucsc_schoolwork\win19\ee157\lab3\amreceiver\lib\ee174reflib.olb")
+      (Select "Design Resources" "Library"
+         "c:\users\stephen\documents\jebisamess\ucsc_schoolwork\win19\ee157\lab3\amreceiver\lib\ee174reflib.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 477"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 100 1750 100 615")
+        (Scroll "312 458")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB2\CRYSTAL_OSCILLATOR\CRYSTAL_OSCILLATOR\AM RECEIVER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Mixer, BPF, IF amps"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 225 1580 225 740")
+        (Scroll "0 140")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB2\CRYSTAL_OSCILLATOR\CRYSTAL_OSCILLATOR\AM RECEIVER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Antenna, Preselect and LNA"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1380 25 540")
+        (Scroll "168 298")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB2\CRYSTAL_OSCILLATOR\CRYSTAL_OSCILLATOR\AM RECEIVER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "IF amplifier"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1405 50 565")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB2\CRYSTAL_OSCILLATOR\CRYSTAL_OSCILLATOR\AM RECEIVER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Product Detector"))))

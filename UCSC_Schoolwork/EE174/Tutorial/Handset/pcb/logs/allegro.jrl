@@ -1,0 +1,29 @@
+\t (00:00:03) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:00:03)     Journal start - Sat Feb 09 23:11:43 2019
+\t (00:00:03)         Host=STEPHEN-PC User=Stephen Pid=1844 CPUs=8
+\t (00:00:03) CmdLine= C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin\allegro.exe -orcad
+\t (00:00:03) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/EE174/Tutorial/Handset/pcb/ee174tutorial.brd
+\i (00:00:03) trapsize 126
+\i (00:00:03) trapsize 124
+\i (00:00:03) trapsize 127
+\i (00:00:04) trapsize 127
+\i (00:00:04) generaledit 
+\i (22:46:09) open 
+\i (22:49:10) fillin "menu_cancel"
+\i (22:49:10) generaledit 
+\i (22:51:20) prepopup 2088.7 3228.7
+\i (22:51:21) pick grid 2060.8 3254.0
+\t (22:51:21) last pick:  2050.0 3250.0
+\i (22:51:26) open 
+\i (22:57:25) fillin "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\EE174\Tutorial\Lib\symbols\BCON_3X1V_100S_1SQ_42D.dra"
+\i (22:57:25) cd "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\EE174\Tutorial\Lib\symbols"
+\t (22:57:25) Opening existing design...
+\i (22:57:26) fillin yes 
+\i (22:57:27) trapsize 28
+\i (22:57:27) trapsize 27
+\i (22:57:27) trapsize 28
+\i (22:57:27) trapsize 25
+\i (22:57:27) trapsize 39
+\t (22:57:27)     Journal end - Sun Feb 10 22:09:07 2019

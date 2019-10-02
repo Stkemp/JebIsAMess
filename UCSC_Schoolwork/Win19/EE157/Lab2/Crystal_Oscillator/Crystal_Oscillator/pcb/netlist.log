@@ -1,0 +1,18 @@
+{ Using PSTWRITER 17.2.0 d001Feb-14-2019 at 18:20:34 }
+
+#1 WARNING(ORCAP-36006): Part Name "2PIN HEADER_BCON_2X1V_100S_1SQ_42D_2PIN HEADER" is renamed to "2PIN HEADER_BCON_2X1V_100S_1SQ_".
+#2 WARNING(ORCAP-36006): Part Name "2N3904_0_BCON_3X1V_100S_1SQ_42D_2N3904" is renamed to "2N3904_0_BCON_3X1V_100S_1SQ_42D".
+#3 WARNING(ORCAP-36006): Part Name "L7812/TO220_4_TO220_H1234_L7812/TO220" is renamed to "L7812/TO220_4_TO220_H1234_L7812".
+#4 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#2" as visible power pin of same name already exists in Package L7812/TO220_4 , U1: Colpitts Crystal Oscillator, Oscillator (2.07, 3.47).
+#5 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#4" as visible power pin of same name already exists in Package L7812/TO220_4 , U1: Colpitts Crystal Oscillator, Oscillator (2.07, 3.47).
+#6 WARNING(ORCAP-36006): Part Name "ATS100B_X_400L_140W_185LS_20D_ATS100B" is renamed to "ATS100B_X_400L_140W_185LS_20D_A".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\pcb/pstchip.dat
+
+Loading... C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\pcb/pstchip.dat
+
+Loading... C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\pcb/pstxprt.dat
+
+Loading... C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\pcb/pstxnet.dat
+packaging the design view...

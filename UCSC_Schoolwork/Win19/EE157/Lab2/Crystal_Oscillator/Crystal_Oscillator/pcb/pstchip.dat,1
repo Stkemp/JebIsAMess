@@ -1,0 +1,192 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Feb-11-2019 at 17:16:52}
+primitive 'C_SMC0805_0.1U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='SMC0805';
+    VALUE='0.1u';
+  end_body;
+end_primitive;
+primitive 'C_SMC0805_0.3U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='SMC0805';
+    VALUE='0.3u';
+  end_body;
+end_primitive;
+primitive 'C_SMC0805_22P';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='SMC0805';
+    VALUE='22p';
+  end_body;
+end_primitive;
+primitive 'C_SMC0805_150P';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='SMC0805';
+    VALUE='150p';
+  end_body;
+end_primitive;
+primitive 'D_SMD_0805_21_D';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='D';
+    JEDEC_TYPE='SMD_0805_21';
+    VALUE='D';
+  end_body;
+end_primitive;
+primitive '2PIN HEADER_BCON_2X1V_100S_1SQ_';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='2Pin Header';
+    JEDEC_TYPE='BCON_2X1V_100S_1SQ_42D';
+    VALUE='2Pin Header';
+  end_body;
+end_primitive;
+primitive '2N3904_0_BCON_3X1V_100S_1SQ_42D';
+  pin
+    'COLLECTOR':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'EMITTER':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'BASE':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='2N3904_0';
+    JEDEC_TYPE='BCON_3X1V_100S_1SQ_42D';
+    VALUE='2N3904';
+  end_body;
+end_primitive;
+primitive 'R_SMR0805_82K';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='SMR0805';
+    VALUE='82k';
+  end_body;
+end_primitive;
+primitive 'R_SMR0805_120K';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='SMR0805';
+    VALUE='120k';
+  end_body;
+end_primitive;
+primitive 'R_SMR0805_4.7K';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='SMR0805';
+    VALUE='4.7k';
+  end_body;
+end_primitive;
+primitive 'L7812/TO220_4_TO220_H1234_L7812';
+  pin
+    'VIN':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'GND#2':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'VCC':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'GND#4':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='L7812/TO220_4';
+    JEDEC_TYPE='TO220_H1234';
+    VALUE='L7812/TO220';
+  end_body;
+end_primitive;
+primitive 'ATS100B_X_400L_140W_185LS_20D_A';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='ATS100B';
+    JEDEC_TYPE='X_400L_140W_185LS_20D';
+    VALUE='ATS100B';
+  end_body;
+end_primitive;
+END.

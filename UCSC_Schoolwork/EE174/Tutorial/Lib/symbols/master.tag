@@ -1,1 +1,1 @@
-SPDT_EG1206.dra
+Xtal_400L_140W_185LS_20D.dra

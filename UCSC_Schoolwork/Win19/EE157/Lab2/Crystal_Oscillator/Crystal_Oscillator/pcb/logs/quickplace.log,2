@@ -1,0 +1,39 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : ee157lab2_crystal_oscillator.brd              )
+(    Software Version : 16.6-2015S059                                 )
+(    Date/Time        : Mon Feb 11 16:12:13 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U1 / L7812/TO220_3_TO220_H1234_L7812 / TO220_H1234 at (4927.0 6690.5)
+         Placed symbol:  Q1 / 2N3904_0_BCON_3X1V_100S_1SQ_42D / BCON_3X1V_100S_1SQ_42D at (4820.5 6514.5)
+         Placed symbol:  Q2 / 2N3904_0_BCON_3X1V_100S_1SQ_42D / BCON_3X1V_100S_1SQ_42D at (4820.5 6398.5)
+         Placed symbol:  C3 / C_SMC0805_0.1U / SMC0805 at (4854.5 6296.0)
+         Placed symbol:  C2 / C_SMC0805_0.1U / SMC0805 at (4854.5 6207.0)
+         Placed symbol:  C5 / C_SMC0805_22P / SMC0805 at (4854.5 6118.0)
+         Placed symbol:  C4 / C_SMC0805_0.3U / SMC0805 at (4854.5 6029.0)
+         Placed symbol:  C1 / C_SMC0805_0.1U / SMC0805 at (4854.5 5940.0)
+         Placed symbol:  C8 / C_SMC0805_150P / SMC0805 at (4854.5 5851.0)
+         Placed symbol:  J1 / 2PIN HEADER_BCON_2X1V_100S_1SQ_ / BCON_2X1V_100S_1SQ_42D at (4825.5 5748.5)
+         Placed symbol:  C6 / C_SMC0805_150P / SMC0805 at (4854.5 5646.0)
+         Placed symbol:  C7 / C_SMC0805_22P / SMC0805 at (4854.5 5557.0)
+         Placed symbol:  J2 / 2PIN HEADER_BCON_2X1V_100S_1SQ_ / BCON_2X1V_100S_1SQ_42D at (4825.5 5454.5)
+         Placed symbol:  R1 / R_SMR0805_82K / SMR0805 at (4854.5 5352.0)
+         Placed symbol:  R2 / R_SMR0805_82K / SMR0805 at (4854.5 5263.0)
+         Placed symbol:  R3 / R_SMR0805_120K / SMR0805 at (4854.5 5174.0)
+         Placed symbol:  R4 / R_SMR0805_120K / SMR0805 at (4854.5 5085.0)
+         Placed symbol:  R5 / R_SMR0805_4.7K / SMR0805 at (4854.5 4996.0)
+         Placed symbol:  R6 / R_SMR0805_4.7K / SMR0805 at (4854.5 4907.0)
+         Placed symbol:  X1 / ATS100B_X_400L_140W_185LS_20D_A / X_400L_140W_185LS_20D at (4671.5 4768.5)
+
+
+Placed 20 of 20 applicable (20 total) symbols.
+
+-----------------------------------------------------------------------
+

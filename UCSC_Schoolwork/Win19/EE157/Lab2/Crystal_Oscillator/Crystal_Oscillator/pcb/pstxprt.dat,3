@@ -1,0 +1,220 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Feb-13-2019 at 22:37:29 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='COLPITTS CRYSTAL OSCILLATOR';
+ POST_TIME='Apr 15 2018 17:30:46';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_SMC0805_0.1U':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS330@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins330@analog.\c.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins330@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_SMC0805_0.1U':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS314@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins314@analog.\c.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins314@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_SMC0805_0.1U':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS1953@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins1953@analog.\c.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins1953@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_SMC0805_0.3U':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS1969@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins1969@analog.\c.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins1969@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_SMC0805_22P':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS1515@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins1515@analog.\c.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins1515@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_SMC0805_150P':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS170@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins170@analog.\c.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins170@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_SMC0805_22P':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS1644@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins1644@analog.\c.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins1644@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_SMC0805_150P':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS186@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins186@analog.\c.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins186@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'D_SMD1206_21_D':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS8802@1N4004RLG.D.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins8802@\1n4004rlg\.\d.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins8802@\1n4004rlg\.\d.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 '2PIN HEADER_BCON_2X1V_100S_1SQ_':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS2017@EE174REFLIB.2PIN HEADER.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins2017@ee174reflib.\2pin header.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins2017@ee174reflib.\2pin header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 '2PIN HEADER_BCON_2X1V_100S_1SQ_':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS2623@EE174REFLIB.2PIN HEADER.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins2623@ee174reflib.\2pin header.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins2623@ee174reflib.\2pin header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 '2N3904_0_BCON_3X1V_100S_1SQ_42D':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS86@COLPITTS CRYSTAL OSCILLATOR.2N3904_0.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins86@\colpitts crystal oscillator\.\2n3904_0.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins86@\colpitts crystal oscillator\.\2n3904_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 '2N3904_0_BCON_3X1V_100S_1SQ_42D':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS902@COLPITTS CRYSTAL OSCILLATOR.2N3904_0.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins902@\colpitts crystal oscillator\.\2n3904_0.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins902@\colpitts crystal oscillator\.\2n3904_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_SMR0805_82K':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS145@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins145@analog.\r.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins145@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_SMR0805_82K':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS886@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins886@analog.\r.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins886@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_SMR0805_120K':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS129@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins129@analog.\r.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins129@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_SMR0805_120K':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS920@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins920@analog.\r.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins920@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_SMR0805_4.7K':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS113@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins113@analog.\r.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins113@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_SMR0805_4.7K':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS936@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins936@analog.\r.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins936@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'L7812/TO220_4_TO220_H1234_L7812':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS4840@COLPITTS CRYSTAL OSCILLATOR.L7812/TO220_4.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins4840@\colpitts crystal oscillator\.\l7812/to220_4.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins4840@\colpitts crystal oscillator\.\l7812/to220_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ X1 'ATS100B_X_400L_140W_185LS_20D_A':;
+
+SECTION_NUMBER 1
+ '@COLPITTS CRYSTAL OSCILLATOR.COLPITTS CRYSTAL OSCILLATOR(SCH_1):INS219@LIBRARY2.ATS100B.NORMAL(CHIPS)':
+ C_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):ins219@library2.\ats100b.normal\(chips)',
+ P_PATH='@\colpitts crystal oscillator\.\colpitts crystal oscillator\(sch_1):page1_ins219@library2.\ats100b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

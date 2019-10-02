@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Parameter File READ                                              )
+(                                                                     )
+(    Drawing          : Xtal_400L_140W_185LS_20D.dra                  )
+(    Software Version : 16.6-2015S059                                 )
+(    Date/Time        : Mon Feb 11 11:19:53 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+	Paramfile Name : C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/Win19/EE157/Lab2/Crystal_Oscillator/lib/local/parameter/symbol_mode.prm
+	Layout Name   : C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/Win19/EE157/Lab2/Crystal_Oscillator/Lib/symbols/Xtal_400L_140W_185LS_20D.dra
+
+Reading...db_common_type:
+	WARNING: Unmatched Data - Field Name: alternate_subclass , Value: "NAME UNDEFINED"
+Reading...grid_parms_type:
+Reading...UnusedPadsSuppressionSettings:
+Reading...color_table_table:
+Reading...ColorParmType:
+Reading...text_size_table:
+
+
+..... Total number of errors: 0.
+..... Total number of warnings: 1.

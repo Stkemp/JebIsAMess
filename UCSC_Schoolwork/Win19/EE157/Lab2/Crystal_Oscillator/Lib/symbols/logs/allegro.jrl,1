@@ -1,0 +1,149 @@
+\t (00:07:42) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:07:42)     Journal start - Thu Feb 14 18:21:59 2019
+\t (00:07:42)         Host=STEPHEN-PC User=Stephen Pid=9212 CPUs=8
+\t (00:07:42) CmdLine= C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin\allegro.exe -orcad
+\t (00:07:42) 
+\d (00:07:42) Design opened: C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/Win19/EE157/Lab2/Crystal_Oscillator/Lib/symbols/SMB.dra
+\i (00:07:42) etchedit 
+\i (00:07:43) zoom in 0.100000 
+\i (00:07:43) setwindow pcb
+\i (00:07:43) zoom in -4.7062 -2.6398 0.1
+\i (00:07:43) trapsize 2477
+\i (00:07:43) zoom in 0.100000 
+\i (00:07:43) setwindow pcb
+\i (00:07:43) zoom in -6.8169 -2.6397 0.1
+\i (00:07:43) trapsize 2252
+\i (00:07:43) zoom in 0.100000 
+\i (00:07:43) setwindow pcb
+\i (00:07:43) zoom in -8.7358 -2.6397 0.1
+\i (00:07:43) trapsize 2047
+\i (00:07:43) zoom in 0.100000 
+\i (00:07:43) setwindow pcb
+\i (00:07:43) zoom in -8.7359 -2.6396 0.1
+\i (00:07:43) trapsize 1861
+\i (00:07:43) zoom in 0.100000 
+\i (00:07:43) setwindow pcb
+\i (00:07:43) zoom in -8.7358 -2.6396 0.1
+\i (00:07:43) trapsize 1692
+\i (00:07:43) zoom in 0.100000 
+\i (00:07:43) setwindow pcb
+\i (00:07:43) zoom in -8.7358 -2.6396 0.1
+\i (00:07:43) trapsize 1538
+\i (00:07:43) zoom in 0.100000 
+\i (00:07:43) setwindow pcb
+\i (00:07:43) zoom in -6.8591 -2.4857 0.1
+\i (00:07:43) trapsize 1398
+\i (00:07:43) zoom in 0.100000 
+\i (00:07:43) setwindow pcb
+\i (00:07:43) zoom in -6.8591 -2.4857 0.1
+\i (00:07:43) trapsize 1271
+\i (00:07:44) zoom in 0.100000 
+\i (00:07:44) setwindow pcb
+\i (00:07:44) zoom in -6.8845 -2.5366 0.1
+\i (00:07:44) trapsize 1156
+\i (00:07:44) zoom in 0.100000 
+\i (00:07:44) setwindow pcb
+\i (00:07:44) zoom in -5.3358 -2.6521 0.1
+\i (00:07:44) trapsize 1051
+\i (00:07:44) zoom in 0.100000 
+\i (00:07:44) setwindow pcb
+\i (00:07:44) zoom in -5.3357 -2.6521 0.1
+\i (00:07:44) trapsize 955
+\i (00:07:44) zoom in 0.100000 
+\i (00:07:44) setwindow pcb
+\i (00:07:44) zoom in -5.3357 -2.6520 0.1
+\i (00:07:44) trapsize 868
+\i (00:07:44) pick grid -2.6961 0.1613
+\t (00:07:44) last pick:  -2.5400 0.0000
+\i (00:07:46) prepopup -2.8871 0.2481
+\i (00:07:48) pick grid -2.0362 2.9919
+\t (00:07:48) last pick:  -1.9050 3.1750
+\i (00:07:51) padeditdb 
+\i (00:07:52) pick grid -2.5224 -0.4118
+\t (00:07:52) last pick:  -2.5400 -0.6350
+\i (00:07:57) zoom out 0.100000 
+\i (00:07:57) setwindow pcb
+\i (00:07:57) zoom out -0.7511 -0.3597 0.1
+\i (00:07:57) trapsize 955
+\i (00:07:57) zoom out 0.100000 
+\i (00:07:57) setwindow pcb
+\i (00:07:57) zoom out -0.7511 -0.3597 0.1
+\i (00:07:57) trapsize 1051
+\i (00:07:57) zoom out 0.100000 
+\i (00:07:57) setwindow pcb
+\i (00:07:57) zoom out -0.7511 -0.3597 0.1
+\i (00:07:57) trapsize 1156
+\i (00:07:57) zoom in 0.100000 
+\i (00:07:57) setwindow pcb
+\i (00:07:57) zoom in -0.7510 -0.3596 0.1
+\i (00:07:57) trapsize 1051
+\i (00:07:57) zoom in 0.100000 
+\i (00:07:57) setwindow pcb
+\i (00:07:57) zoom in -0.7510 -0.3596 0.1
+\i (00:07:57) trapsize 955
+\i (00:07:58) zoom out 0.100000 
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom out 3.0504 -0.5314 0.1
+\i (00:07:58) trapsize 1051
+\i (00:07:58) zoom out 0.100000 
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom out 2.7352 -0.7205 0.1
+\i (00:07:58) trapsize 1156
+\i (00:07:59) zoom out 0.100000 
+\i (00:07:59) setwindow pcb
+\i (00:07:59) zoom out 1.0710 -1.1366 0.1
+\i (00:07:59) trapsize 1271
+\i (00:07:59) zoom out 0.100000 
+\i (00:07:59) setwindow pcb
+\i (00:07:59) zoom out 1.0710 -1.1365 0.1
+\i (00:07:59) trapsize 1398
+\i (00:07:59) zoom out 0.100000 
+\i (00:07:59) setwindow pcb
+\i (00:07:59) zoom out 1.0710 -1.1364 0.1
+\i (00:07:59) trapsize 1538
+\i (00:07:59) zoom out 0.100000 
+\i (00:07:59) setwindow pcb
+\i (00:07:59) zoom out 1.1325 -1.1363 0.1
+\i (00:07:59) trapsize 1692
+\i (00:07:59) zoom in 0.100000 
+\i (00:07:59) setwindow pcb
+\i (00:07:59) zoom in 2.8713 0.1496 0.1
+\i (00:07:59) trapsize 1538
+\i (00:07:59) zoom in 0.100000 
+\i (00:07:59) setwindow pcb
+\i (00:07:59) zoom in 2.8713 0.2112 0.1
+\i (00:07:59) trapsize 1398
+\i (00:07:59) zoom in 0.100000 
+\i (00:07:59) setwindow pcb
+\i (00:07:59) zoom in 2.8713 0.2952 0.1
+\i (00:07:59) trapsize 1271
+\i (00:08:00) zoom in 0.100000 
+\i (00:08:00) setwindow pcb
+\i (00:08:00) zoom in -0.1288 1.3377 0.1
+\i (00:08:00) trapsize 1156
+\i (00:08:00) zoom in 0.100000 
+\i (00:08:00) setwindow pcb
+\i (00:08:00) zoom in -0.5680 1.4071 0.1
+\i (00:08:00) trapsize 1051
+\i (00:08:00) zoom in 0.100000 
+\i (00:08:00) setwindow pcb
+\i (00:08:00) zoom in -1.4295 1.4282 0.1
+\i (00:08:00) trapsize 955
+\i (00:08:03) setwindow form.mini
+\i (00:08:03) FORM mini pad_stack_edit  
+\i (00:08:09) setwindow form.padedit
+\i (00:08:09) pse_save_as 
+\i (00:08:16) fillin "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Lib\padstacks\s_r220_215_m220_215_p220_21.pad"
+\i (00:08:18) pse_exit
+\i (00:08:21) setwindow pcb
+\i (00:08:21) open 
+\i (00:08:29) fillin "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\pcb\ee157lab2_crystal_oscillator.brd"
+\i (00:08:29) cd "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\pcb"
+\t (00:08:29) Opening existing design...
+\t (00:08:29) Grids are drawn 10.0, 10.0 apart for enhanced viewability.
+\i (00:08:29) trapsize 66
+\i (00:08:29) trapsize 65
+\i (00:08:29) trapsize 66
+\t (00:08:30) Grids are drawn 10.0, 10.0 apart for enhanced viewability.
+\i (00:08:30) trapsize 66
+\t (00:08:30)     Journal end - Thu Feb 14 18:22:46 2019

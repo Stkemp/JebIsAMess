@@ -1,0 +1,280 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : ee157lab2_crystal_oscillator.brd              )
+(    Software Version : 16.6-2015S059                                 )
+(    Date/Time        : Mon Feb 11 20:28:49 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                4.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/Win19/EE157/Lab2/Crystal_Oscillator/Crystal_Oscillator/pcb/artwork/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.04400                                  DARK 
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.07600                                  DARK 
+  CIRCLE     0.14000                                  DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.07500                     0.000 NO     DARK 
+  SQUARE     0.07600                     0.000 NO     DARK 
+  RECTANGLE  0.07600     x 0.04800       0.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/Win19/EE157/Lab2/Crystal_Oscillator/Crystal_Oscillator/pcb/artwork/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.04400                                  DARK 
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.07600                                  DARK 
+  CIRCLE     0.14000                                  DARK 
+  SQUARE     0.07500                     0.000 NO     DARK 
+  SQUARE     0.07600                     0.000 NO     DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SST >
+     TO FILE < C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/Win19/EE157/Lab2/Crystal_Oscillator/Crystal_Oscillator/pcb/artwork/SST.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (5630.5 5449.0)
+           ... ignored.
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+
+     SST created with warnings
+
+
+================================================================
+     PROCESSING FILM < SSB >
+     TO FILE < C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/Win19/EE157/Lab2/Crystal_Oscillator/Crystal_Oscillator/pcb/artwork/SSB.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (6605.0 5897.0)
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+
+     SSB created with warnings
+
+
+================================================================
+     PROCESSING FILM < MECH >
+     TO FILE < C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/Win19/EE157/Lab2/Crystal_Oscillator/Crystal_Oscillator/pcb/artwork/MECH.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape composed 0 width line found at (5000.0 7000.0)
+           ... ignored.
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.05000                                  DARK 
+
+     MECH created with warnings
+
+
+================================================================
+     PROCESSING FILM < SMT >
+     TO FILE < C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/Win19/EE157/Lab2/Crystal_Oscillator/Crystal_Oscillator/pcb/artwork/SMT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.07600                                  DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.07500                     0.000 NO     DARK 
+  SQUARE     0.07600                     0.000 NO     DARK 
+  RECTANGLE  0.07600     x 0.04800       0.000 NO     DARK 
+
+     SMT created.
+
+
+================================================================
+     PROCESSING FILM < SMB >
+     TO FILE < C:/Users/Stephen/Documents/JebIsAMess/UCSC_Schoolwork/Win19/EE157/Lab2/Crystal_Oscillator/Crystal_Oscillator/pcb/artwork/SMB.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.07600                                  DARK 
+  SQUARE     0.07500                     0.000 NO     DARK 
+  SQUARE     0.07600                     0.000 NO     DARK 
+
+     SMB created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created.
+        BOTTOM created.
+        SST created with warnings
+        SSB created with warnings
+        MECH created with warnings
+        SMT created.
+        SMB created.
+
+ ARTWORK had warnings

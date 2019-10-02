@@ -9,6 +9,8 @@
       (File "..\lib\ee174reflib.olb"
         (Type "Schematic Library"))
       (File "..\lib\ee174tutorial.olb"
+        (Type "Schematic Library"))
+      (File ".\1n4004rlg.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\colpitts crystal oscillator.dsn"
@@ -66,12 +68,60 @@
     (DRC_Visible_Power_pins "FALSE")
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
-    (DRC_Run_Physical_Custom_DRC "FALSE"))
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Board_sim_option "VHDL_flow")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "C:\Users\Stephen\Documents\JebIsAMess\UCSC_Schoolwork\Win19\EE157\Lab2\Crystal_Oscillator\Crystal_Oscillator\pcb")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File"
+       "allegro\COLPITTS CRYSTAL OSCILLATOR.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Outputs"
     (File ".\colpitts crystal oscillator.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (D
+      (FullPartName "D.Normal")
+      (LibraryName
+         "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB2\CRYSTAL_OSCILLATOR\CRYSTAL_OSCILLATOR\1N4004RLG.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
     (L7812/TO220
       (FullPartName "L7812/TO220.Normal")
       (LibraryName
@@ -90,11 +140,6 @@
     (GND
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (Dbreak
-      (FullPartName "Dbreak.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
-      (DeviceIndex "0"))
     (VCC_BAR
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -112,11 +157,6 @@
       (LibraryName
          "C:\USERS\STEPHEN\DOCUMENTS\SCHOOLWORKUCSC\EE174\TUTORIAL\HANDSET\LIBRARY2.OLB")
       (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
     (2N3904
       (FullPartName "2N3904.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
@@ -130,14 +170,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\stephen\documents\jebisamess\ucsc_schoolwork\win19\ee157\lab2\crystal_oscillator\crystal_oscillator\colpitts crystal oscillator.dsn")
+      (Path "Design Resources" ".\colpitts crystal oscillator.dsn")
+      (Path "Design Resources" ".\colpitts crystal oscillator.dsn"
+         "Colpitts Crystal Oscillator")
       (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "c:\users\stephen\documents\jebisamess\ucsc_schoolwork\win19\ee157\lab2\crystal_oscillator\crystal_oscillator\colpitts crystal oscillator.dsn"))
-    (HierarchyView
-      (Path "Colpitts Crystal Oscillator"))
+      (Path "Design Resources" "Library" ".\1n4004rlg.olb")
+      (Path "Outputs"))
+    (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
@@ -146,7 +185,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1675 50 580")
+        (Placement "44 0 1 -1 -1 -8 -30 -311 1314 58 588")
         (Scroll "-96 0")
         (Zoom "100")
         (Occurrence "/"))
@@ -157,11 +196,23 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 250 1579 250 780")
-        (Scroll "108 536")
-        (Zoom "160")
+        (Placement "44 0 1 -1 -1 -8 -30 31 1360 -12 518")
+        (Scroll "437 476")
+        (Zoom "144")
         (Occurrence "/"))
       (Path
          "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB2\CRYSTAL_OSCILLATOR\CRYSTAL_OSCILLATOR\COLPITTS CRYSTAL OSCILLATOR.DSN")
       (Schematic "Colpitts Crystal Oscillator")
-      (Page "Oscillator"))))
+      (Page "Oscillator"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1725 100 630")
+        (Scroll "247 383")
+        (Zoom "184")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\STEPHEN\DOCUMENTS\JEBISAMESS\UCSC_SCHOOLWORK\WIN19\EE157\LAB2\CRYSTAL_OSCILLATOR\CRYSTAL_OSCILLATOR\COLPITTS CRYSTAL OSCILLATOR.DSN")
+      (Schematic "Colpitts Crystal Oscillator")
+      (Page "LCtank")))
+  (ISPCBBASICLICENSE "false"))
