@@ -1,0 +1,57 @@
+% ECE 251 assignment 1: Due noon, Monday Oct 7, 2019
+% Given: 
+%   - The noise is complex Gaussian white noise with zero mean and
+%       variance sigma^2
+%   - The filter has a 3dB bandwidth of 10kHz and an attenuation of 50dB
+%       at 12kHz. The DC gain is 20dB.
+
+close all;
+clear all;
+clc
+
+%% 1. Determine the variance of the noise to correspond to thermal reciever
+% noise assuming temperature T = 300K and a noise figure NF = 5dB.
+Tk = 300;
+k = 1.381E-23;
+var = Tk*k/4; %see explanation of part 1
+
+%% 2. Design LPF and plot its mag-squared frequency response (use fir1)
+%KNOBS
+fs = 40000; % sampling frequency
+cutoff = 10000;
+order = 30;
+N = 1; % number of seconds
+DC_gain_scalar = 2.73; % tuned to give passband gain of ~20dB
+
+Ts = 1/fs;
+t = 0:Ts:N;
+
+% filt = fir1(order, cutoff/fs/2); % LPF. 1 in 2nd arg corresponds to fs/2
+filt = DC_gain_scalar.*fir1(order, 2*cutoff/fs);
+
+F_mag = abs(fft(filt, round(length(t)/2))); %frequency domain filter magnitude
+F_mag = (F_mag(1:round(length(F_mag)/2))); %just want the positive freqs 0 to pi
+F_magsqDB = 20*log(F_mag); %calculate the magnitude squared values in DB
+f = linspace(1,fs/2,length(F_magsqDB));
+
+figure(1)
+plot(f,F_magsqDB)
+title('Magnitude squared LPF in frequency domain')
+xlabel('frequency (10^4 Hz)')
+ylabel('dB')
+
+%% 3. Generate complex noise vector and pass it through the filter to get y
+std = sqrt(var);
+%default normal std dev = 1, so have to scale it.
+r = randn(length(t),1)*std; %generate real white noise
+im = randn(length(t),1)*std; %generate imaginary white noise
+v = r + i.*im;
+
+%compute y[n] using filter
+y = filter(filt,1,v);
+%% 4. Compute and plot the spectrum of the noise at the output of the 
+% filter by averaging the magnitude squared Fourier transform of 50 blocks
+% of the output data y[n]. The frequency resolution of the spectrum should
+% be 10Hz or less.
+
+%% 5. Compute the total noise power at the filter output
