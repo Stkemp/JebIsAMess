@@ -53,10 +53,11 @@ v = r + i.*im;
 
 % compute PSD of unfiltered noise
 P_v = PSD(v,t,50);
-w_v = linspace(0,fs/2,length(P_v));
+P_v_positive = P_v(1:fix(length(P_v)/2));
+w_v = linspace(0,fs/2,length(P_v_positive));
 
 subplot(3,1,2)
-plot(w_v,10*log(P_v))
+plot(w_v,10*log(P_v_positive))
 title('Power Spectral Density of Unfiltered White Noise')
 xlabel('frequency (Hz)')
 ylabel('dB')
@@ -72,10 +73,11 @@ num_chunks = 50; %number of PSD chunks to average
 
 P_y = PSD(y,t,num_chunks);
 P_y = P_y.*10^(NF_dB/20); %multiply in noise figure
-w = linspace(0,fs/2,length(P_y));
+P_y_positive = P_y(1:fix(length(P_y)/2));
+w = linspace(0,fs/2,length(P_y_positive));
 
 subplot(3,1,3)
-plot(w,10*log(P_y))
+plot(w,10*log(P_y_positive))
 title('4) Power Spectral Density of Filtered White Noise')
 xlabel('frequency (Hz)')
 ylabel('dB')
@@ -90,9 +92,6 @@ fprintf('5) total filtered signal power: ')
 fprintf(num2str(sum));
 fprintf(' Watts\n');
 
-
-
-
 %%--------------------------Helper functions------------------------------
 %PSD: calculates the power spectral density of a signal x using
 %Wiener-Kinchin method
@@ -103,11 +102,10 @@ fprintf(' Watts\n');
 function [P] = PSD(x,t,N)
 T0 = (t(end) - t(1))/N;
 chunk_len = fix(length(x)/N);
-sum = zeros(chunk_len/2,1);
+sum = zeros(chunk_len,1);
 for k = 0:N-1
     chunk = x(chunk_len*k+1:chunk_len*(k+1));
     Chunk = fft(chunk);
-    Chunk = Chunk(1:fix(length(Chunk)/2));
     Chunk_magsq = abs(Chunk).^2;
     sum = sum + Chunk_magsq./T0;
 end
