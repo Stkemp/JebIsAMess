@@ -40,7 +40,7 @@ f = linspace(1,fs/2,length(F_magsqDB));
 figure(1)
 subplot(3,1,1)
 plot(f,F_magsqDB)
-title('Magnitude squared plot of LPF')
+title('2) Magnitude squared plot of LPF')
 xlabel('frequency (Hz)')
 ylabel('dB')
 
@@ -70,18 +70,25 @@ y = filter(filt,1,v);
 NF_dB = 5; %noise figure of reciever
 num_chunks = 50; %number of PSD chunks to average
 
-P = PSD(y,t,num_chunks);
-P = P.*10^(NF_dB/20); %multiply in noise figure
-w = linspace(0,fs/2,length(P));
+P_y = PSD(y,t,num_chunks);
+P_y = P_y.*10^(NF_dB/20); %multiply in noise figure
+w = linspace(0,fs/2,length(P_y));
 
 subplot(3,1,3)
-plot(w,10*log(P))
-title('Power Spectral Density of Filtered White Noise')
+plot(w,10*log(P_y))
+title('4) Power Spectral Density of Filtered White Noise')
 xlabel('frequency (Hz)')
 ylabel('dB')
 
 %% 5. Compute the total noise power at the filter output
-
+sum = 0;
+res = w(2)-w(1);
+for k = 1:length(P_y)
+    sum = P_y(k)*res;
+end
+fprintf('5) total filtered signal power: ')
+fprintf(num2str(sum));
+fprintf(' Watts\n');
 
 
 
