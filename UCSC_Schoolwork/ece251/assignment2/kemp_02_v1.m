@@ -12,8 +12,9 @@ clc;
 
 %% 1. Generate the baseband signal s(t), using a random sequence of bits
 T0 = 0.001;
-fs = 15000;
-n = 10; % number of 2-bit symbols
+fs = 12000;
+n = 10000; % number of 2-bit symbols
+symbols_per_block = 5;
 
 N = T0*n; % total time
 Ts = 1/fs;
@@ -25,14 +26,29 @@ re = re.*2 - 1; %adjusts 0s and 1s to -1 and 1
 im = randi([0,1],[1,n]);
 im = im.*2 - 1; %adjusts 0s and 1s to -1 and 1
 a = re + i*im;
-s = vect_expand(a,length(t));
+s = vect_expand(a,length(t)); % upsample a to fit t
 
-figure(1);
-plot(t,s)
+% ang = angle(fft(s));
+% S = PSD(s,t,n/symbols_per_block,fs);
+% S = [S(length(S)/2+1:length(S)),S(1:length(S)/2)]; % 0 to 2pi -> -pi to pi
+% f_S = linspace(-fs/2,fs/2,length(S));
+% 
+% figure(1)
+% plot(f_S, 10*log10(S))
+% figure(2)
+% plot(linspace(-fs/2,fs/2,length(ang)), 180/pi*ang);
+
+
 %% 2. Go to passband and back as follows:
 
 % a. Generate the analytic passband signal x+(t) with carrier frequency of
 % f_c = 4kHz
+f_c = 4000;
+
+c = exp(j*2*pi*f_c*t);
+figure(1)
+plot(t,c)
+
 
 % b. Convert the analytic signal into a passband signal x1(t)
 
@@ -41,6 +57,8 @@ plot(t,s)
 
 % d. Calculate and plot the magnitude spectra of: s(t), x+(t), x1+(t),
 % z1(t) (The spectra should be averaged over multiple data blocks).
+
+
 
 
 %% 3. Go to passband and back as follows:
@@ -73,6 +91,25 @@ step = old_N/N;
 for n = 1:N
    e(n) = x(fix(n*step-step)+1);
 end
+end
+
+%PSD: calculates the power spectral density of a signal x using
+%Wiener-Khinchin method
+%args: x - input signal vector
+%   t - corresponding time vector
+%   N - number of chunks
+%output: P - PSD vector
+function [P] = PSD(x,t,N,fs)
+T0 = (t(end) - t(1))/N;
+chunk_len = fix(length(x)/N);
+sum = zeros(1,chunk_len);
+for k = 0:N-1
+    chunk = x(chunk_len*k+1:chunk_len*(k+1));
+    Chunk = fft(chunk,length(chunk));
+    Chunk_magsq = abs(Chunk).^2;
+    sum = sum + Chunk_magsq./(T0*fs);
+end
+P = sum/N;
 end
 
 
