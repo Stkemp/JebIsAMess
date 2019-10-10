@@ -12,9 +12,9 @@ clc;
 
 %% 1. Generate the baseband signal s(t), using a random sequence of bits
 T0 = 0.001;
-fs = 12000;
+fs = 16000;
 n = 10000; % number of 2-bit symbols
-symbols_per_block = 5;
+symbols_per_block = 100;
 
 N = T0*n; % total time
 Ts = 1/fs;
@@ -45,9 +45,33 @@ s = vect_expand(a,length(t)); % upsample a to fit t
 % f_c = 4kHz
 f_c = 4000;
 
-c = exp(j*2*pi*f_c*t);
+c = cos(2*pi*f_c*t);
+cutoff = 2000;
+order = 500;
+filt = fir1(order, 2*cutoff/fs);
+
+x_plus = filter(filt,1,s); %bandlimit baseband signal
+
+S = PSD(s,t,n/symbols_per_block,fs);
+S = [S(length(S)/2+1:length(S)),S(1:length(S)/2)]; % 0 to 2pi -> -pi to pi
+f_S = linspace(-fs/2,fs/2,length(S));
+X_plus = PSD(x_plus,t,n/symbols_per_block,fs);
+X_plus = [X_plus(length(X_plus)/2+1:length(X_plus)),X_plus(1:length(X_plus)/2)]; % 0 to 2pi -> -pi to pi
+
 figure(1)
-plot(t,c)
+subplot(3,1,1)
+plot(f_S,10*log10(S))
+subplot(3,1,2)
+plot(f_S,10*log10(X_plus))
+
+x_plus = c.*x_plus; %modulate signal with 4kHz carrier
+X_plus = PSD(x_plus,t,n/symbols_per_block,fs);
+X_plus = [X_plus(length(X_plus)/2+1:length(X_plus)),X_plus(1:length(X_plus)/2)]; % 0 to 2pi -> -pi to pi
+subplot(3,1,3)
+plot(f_S,10*log10(X_plus))
+
+
+
 
 
 % b. Convert the analytic signal into a passband signal x1(t)
