@@ -12,7 +12,7 @@ clc;
 
 %% 1. Generate the baseband signal s(t), using a random sequence of bits
 T0 = 0.001; % symbol pulse duration
-fs = 12000;
+fs = 16000;
 n = 10000; % number of 2-bit symbols
 
 N = T0*n; % total time
@@ -32,7 +32,7 @@ s = vect_expand(a,length(t)); % upsample a to fit t
 % a. Generate the analytic passband signal x+(t) with carrier frequency of
 % fc = 4kHz
 fc = 4000;
-f_cutoff = 1000;
+f_cutoff = 2000;
 order = 100; % filter order
 symbols_per_block = 100; % sets symbols/block when calculating PSD
 
@@ -41,6 +41,7 @@ filt = fir1(order, 2*f_cutoff/fs);
 
 % x_plus = filter(filt,1,s); %bandlimit baseband signal
 x_plus = c.*s; %modulate signal with 4kHz carrier
+% x_plus = hilbert(x_plus);
 
 % b. Convert the analytic signal into a passband signal x1(t)
 x1 = real(x_plus);
@@ -53,15 +54,15 @@ z1 = x1_plus .* exp(i*2*pi*-fc*t);
 % d. Calculate and plot the magnitude spectra of: s(t), x+(t), x1(t),
 % x1+(t), z1(t) (The spectra should be averaged over multiple data blocks).
 S = PSD(s,t,n/symbols_per_block,fs);
-S = fft_reverse(S); % 0 to 2pi -> -pi to pi
+S = fftshift(S); % 0 to 2pi -> -pi to pi
 X_plus = PSD(x_plus,t,n/symbols_per_block,fs);
-X_plus = fft_reverse(X_plus);
+X_plus = fftshift(X_plus);
 X1 = PSD(x1,t,n/symbols_per_block,fs);
-X1 = fft_reverse(X1);
+X1 = fftshift(X1);
 X1_plus = PSD(x1_plus,t,n/symbols_per_block,fs);
-X1_plus = fft_reverse(X1_plus);
+X1_plus = fftshift(X1_plus);
 Z1 = PSD(z1,t,n/symbols_per_block,fs);
-Z1 = fft_reverse(Z1);
+Z1 = fftshift(Z1);
 f = linspace(-fs/2,fs/2,length(S));
 
 % plot s, x+, x1, x1+, z1
@@ -111,9 +112,9 @@ z2 = u + i.*v; %reconstruct complex baseband signal
 % c. Calculate and plot the magnitude spectra of x2(t), z2(t). (The spectra
 % should be averaged over multiple data blocks).
 X2 = PSD(x2,t,n/symbols_per_block,fs);
-X2 = fft_reverse(X2);
+X2 = fftshift(X2);
 Z2 = PSD(z2,t,n/symbols_per_block,fs);
-Z2 = fft_reverse(Z2);
+Z2 = fftshift(Z2);
 
 figure(2)
 subplot(2,1,1);
@@ -130,7 +131,7 @@ xlabel('frequency (Hz)');
 
 %% 4. Plot and compare the baseband signals s(t), z1(t) and z2(t). Explain
 % and discuss what differences you may see. (In the explanation document.)
-n_symbols = 120;
+n_symbols = 50;
 n_samples = fix(n_symbols*length(t)/n);
 figure(3);
 subplot(3,2,1);
@@ -154,12 +155,17 @@ title('Imaginary Part of Recieved Signal z1(t)');
 ylabel('signal amplitude(V)');
 xlabel('time(s)');
 subplot(3,2,5);
-plot(t(1:n_samples),real(z2(1:n_samples)));
+
+% get rid of time delay caused by filtering
+t_z2 = t - order/(2*fs);
+t_z2(order/2) = 0; %cheating to get around rounding error for plotting purposes
+
+plot(t_z2(order/2:n_samples+order/2),real(z2(order/2:n_samples+order/2)));
 title('Real Part of Recieved Signal z2(t)');
 ylabel('signal amplitude(V)');
 xlabel('time(s)');
 subplot(3,2,6);
-plot(t(1:n_samples),imag(z2(1:n_samples)));
+plot(t_z2(order/2:n_samples+order/2),imag(z2(order/2:n_samples+order/2)));
 title('Imaginary Part of Recieved Signal z2(t)');
 ylabel('signal amplitude(V)');
 xlabel('time(s)');
@@ -200,11 +206,6 @@ for k = 0:N-1
     sum = sum + Chunk_magsq./(T0*fs);
 end
 P = sum/N;
-end
-
-%reverses fft vector to be from -pi to pi instead of 0 to 2pi
-function [rev] = fft_reverse(x)
-rev = [x(length(x)/2+1:length(x)),x(1:length(x)/2)];
 end
 
 
