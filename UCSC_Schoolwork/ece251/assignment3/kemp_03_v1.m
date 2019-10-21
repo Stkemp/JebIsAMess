@@ -7,8 +7,8 @@ clc;
 
 %% 1. Generate a sequence of real 4-PAM symbols at 2000 symbols/second
 fsym = 2000;
-fs = 16*fsym; %should be an even multiple of symbol frequency for filtering???
-n = 5000; % number of 2-bit 4PAM symbols
+fs = 8*fsym;
+n = 10000; % number of 2-bit 4PAM symbols
 symbols_per_block = 50; % sets symbols/block when calculating PSD
 
 Tsym = 1/fsym; % symbol pulse duration
@@ -20,48 +20,91 @@ t = t(1:end-1); % cut off element
 %generate random 4PAM symbols
 a = randi([0,3],[1,n]);
 a = a.*2 - 3; %maps 0,1,2,3 to -3,-1,1,3
-a = vect_expand(a,length(t)); % upsample a to fit t
+a_t = vect_expand(a,length(t)); % upsample a to fit t
 
-A = PSD(a,t,n/symbols_per_block,fs);
+A = PSD(a_t,t,n/symbols_per_block,fs);
 f = linspace(-fs/2,fs/2,length(A));
 
 %% 2. Pass the sequence through an SSRC TX filter w/ alpha = 20% to get
 % the TX baseband signal s(t)
-alpha = .2; % 20% excess bandwidth
-span = 16; % number of symbols spanned by filter
+alpha = input('enter a value for SRRC filter alpha (0-1): '); % 20% excess bandwidth
+span = 8; % number of symbols spanned by filter
 sps = fs/fsym; % number of samples/symbol
+filter_scalar = 1.108/sqrt(sps); %tuned to account for filter scaling
 
-SRRC = rcosdesign(alpha,span,sps,'sqrt'); % generate SRRC filter
-s = filter(SRRC,1,a);
-s = s(fix(length(SRRC)/2):end); %get rid of signal delay
+SRRC = rcosdesign(alpha,span,sps,'sqrt')*filter_scalar; % generate SRRC filter
+s = filter(SRRC,1,a_t);
+% s = s(fix(length(SRRC)/2):end); %get rid of signal delay
 
-figure(1)
-stem(SRRC)
-
-SRRC_dft = fftshift(fft(SRRC));
-figure(2)
-plot(1:length(SRRC_dft),20*log10(abs(SRRC_dft)))
-
-S = PSD(s,t,n/symbols_per_block,fs);
+% figure(1)
+% stem(SRRC)
+% title('SRRC filter stem plot');
+% ylabel('magnitude (V)');
+% xlabel('sample');
 
 %% 3. Pass the signal s(t) through an SSRC RX filter to get the filtered
 % signal y(t)
 y = filter(SRRC,1,s); %SRRC is its own matched filter because of it's symmetry
-y = y(fix(length(SRRC)/2):end); %get rid of signal delay
+% y = y(fix(length(SRRC)/2):end); %get rid of signal delay
+
+% figure(4)
+% subplot(2,1,1);
+% plot(1:1000,a_t(1:1000));
+% subplot(2,1,2);
+% plot(1:1000,y(1:1000));
 
 %% 4. Generate and plot an eye diagram of the signal y(t)
 
-figure(3)
+figure(2)
 eyediagram(y,sps*2);
 title('Eye diagram of recieved signal y(t)');
 xlabel('samples');
 ylabel('Signal Amplitude (V)');
 %% 5. Calculate and plot the PSD of s(t) and y(t)
+S = PSD(s,t,n/symbols_per_block,fs);
+f_S = linspace(-fs/2,fs/2,length(S));
+Y = PSD(y,t,n/symbols_per_block,fs);
+f_Y = linspace(-fs/2,fs/2,length(Y));
 
-%% 6. Implement a mechanism for detecting the symbols a'[n] from y(t)
+figure (3);
+subplot(2,1,1);
+plot(f_S, 10*log10(S));
+title('SRRC Filtered Transmit Signal PSD');
+xlabel('frequency (Hz)');
+ylabel('dB');
+subplot(2,1,2);
+plot(f_Y, 10*log10(Y));
+title('SRRC Filtered Transmit Signal PSD');
+xlabel('frequency (Hz)');
+ylabel('dB');
+
+%% 6. Implement a mechanism for detecting the symbols a_hat[n] from y(t)
+start = length(SRRC)+fix(.5*sps); % account for double filter delay
+finish = length(t);
+a_hat = zeros(1,length(a));
+j = 1; % a_hat index counter
+for k = start:sps:finish
+    % thresholds based on eye diagram
+    if y(k)>2
+        a_hat(j) = 3;
+    elseif 0<y(k) & y(k)<=2
+        a_hat(j) = 1;
+    elseif -2<y(k) & y(k)<=0
+        a_hat(j) = -1;
+    else
+        a_hat(j) = -3;
+    end
+    j = j+1;
+end
 
 %% 7. Compare the detected symbols to the original symbols and calculate
 % the symbol error rate #incorrect_symbols/num_symbols (should be zero)
+
+% truncate last <SRRC filter span> symbols cut out due to filter delay
+a = a(1:end-span);
+a_hat = a_hat(1:end-span);
+num_errors = nnz(a - a_hat)
+bit_error_rate = num_errors/length(a)
 
 %% Helper Functions
 %vect_exp: expands vector x to be length N, but keeping previous values,
@@ -102,7 +145,6 @@ end
 
 % eyediagram(x,n): plots the eye diagram of signal x in active figure
 % n: number of samples per trace
-% t: corresponding time vector to x (lengths must be equal)
 function eyediagram(x,n)
 N = fix(length(x)/n); % number of traces to plot
 hold on;
