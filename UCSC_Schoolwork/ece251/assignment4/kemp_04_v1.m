@@ -14,6 +14,7 @@ ser = [];
 P_E = [];
 EbNo_dB = [];
 EbNo = [];
+% Run simulation
 for k = 0:2:20
     EbNo_dB = [EbNo_dB k];
     EbNo = [EbNo 10^(k/10)];
@@ -24,20 +25,9 @@ for k = 0:2:20
     P_E = [P_E (2*(1-1/sqrt(M))*erfc(gamma*sqrt(10^(k/10))))];
 end
 
-figure(1);
-subplot(2,1,1);
-hold on;
-plot(EbNo_dB, log10(ser));
-plot(EbNo_dB, log10(P_E));
-hold off;
-legend('simulated', 'theoretical');
-title('Symbol Error Rate vs. EbNo');
-ylabel('Symbol Error Rate (log scale)');
-xlabel('EbNo (dB)');
-
-
-
-
+ber_theo = P_E/log2(M);
+SNR = EbNo*log2(M);
+SNR_dB = 10*log10(SNR);
 
 %% 8. Plot the following simulated AND theorectial data:
 % SER vs. Eb/No
@@ -45,14 +35,42 @@ xlabel('EbNo (dB)');
 % SER vs. SNR
 % BER vs. SNR
 
-% TODO: Calculate theoretical SER/BER for different EbNo
+figure(1);
+subplot(2,1,1);
+semilogy(EbNo_dB, ser, EbNo_dB, P_E);
+legend('simulated', 'theoretical');
+title('Symbol Error Rate vs. EbNo');
+ylabel('Symbol Error Rate');
+xlabel('EbNo (dB)');
+
+subplot(2,1,2);
+semilogy(EbNo_dB, ber, EbNo_dB, ber_theo);
+legend('simulated', 'theoretical');
+title('Bit Error Rate vs. EbNo');
+ylabel('Bit Error Rate');
+xlabel('EbNo (dB)');
+
+figure(2);
+subplot(2,1,1);
+semilogy(SNR_dB, ser, SNR_dB, P_E);
+legend('simulated', 'theoretical');
+title('Symbol Error Rate vs. SNR');
+ylabel('Symbol Error Rate');
+xlabel('SNR (dB)');
+
+subplot(2,1,2);
+semilogy(SNR_dB, ber, SNR_dB, ber_theo);
+legend('simulated', 'theoretical');
+title('Bit Error Rate vs. SNR');
+ylabel('Bit Error Rate');
+xlabel('SNR (dB)');
 
 function [ber, ser] = error_rate_simulation(EbNo)
 %% 1. Generate a random sequence a[n] of 4-QAM symbols at 1000 symbol/sec
 fsym = 1000;
 sps = 8; % number of samples/symbol
 fs = sps*fsym;
-n = 10000000; % number of 2-bit 4QAM symbols
+n = 1000000; % number of 2-bit 4QAM symbols
 symbols_per_block = 50; % sets symbols/block when calculating PSD
 
 Tsym = 1/fsym; % symbol pulse duration
