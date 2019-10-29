@@ -24,6 +24,17 @@ for k = 0:2:20
     P_E = [P_E (2*(1-1/sqrt(M))*erfc(gamma*sqrt(10^(k/10))))];
 end
 
+figure(1);
+subplot(2,1,1);
+hold on;
+plot(EbNo_dB, log10(ser));
+plot(EbNo_dB, log10(P_E));
+hold off;
+legend('simulated', 'theoretical');
+title('Symbol Error Rate vs. EbNo');
+ylabel('Symbol Error Rate (log scale)');
+xlabel('EbNo (dB)');
+
 
 
 
@@ -41,7 +52,7 @@ function [ber, ser] = error_rate_simulation(EbNo)
 fsym = 1000;
 sps = 8; % number of samples/symbol
 fs = sps*fsym;
-n = 100000; % number of 2-bit 4QAM symbols
+n = 10000000; % number of 2-bit 4QAM symbols
 symbols_per_block = 50; % sets symbols/block when calculating PSD
 
 Tsym = 1/fsym; % symbol pulse duration
